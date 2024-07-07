@@ -2,9 +2,18 @@
 layout: default
 title: About US
 ---
-# 私たちは誰？
+# JDDUG とは
 
-JDDUGの運営メンバーです
-・@
-・@
-・仲間募集中
+JDDUGとは、Datadogクラウドサービスを利用するユーザーのコミュニティです。
+
+## 発足
+
+発足：2020年8月
+
+## JDDUGの運営メンバー
+
+- [@chaspy](https://chaspy.me/)
+- [@1kano](https://coderdojo-ome.funnygeekjp.com/profile/)
+- 仲間募集中
+
+
