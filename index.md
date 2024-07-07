@@ -7,6 +7,8 @@ layout: default
 
 JDDUGとは、Datadogクラウドサービスを利用するユーザーのコミュニティです。
 
+![JDDUG meetup](/assets/images/top_meetup.png)
+
 ## 開催予定
 
 JDDUGは、少なくとも3ヶ月に1回のペースでユーザー会を開催する計画です。
