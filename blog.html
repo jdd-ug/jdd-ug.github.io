@@ -6,12 +6,11 @@ title: Blog
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <h3>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h3>
+    <li class="md-5">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.date | date_to_string }}<br />
       <!--<p>{{ post.excerpt }}</p>-->
-      {{ post.content | markdownify | strip_html | truncatewords: 20 }}
+      {{ post.content | markdownify | strip_html | truncatewords: 20 }}</p>
     </li>
   {% endfor %}
 </ul>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Staff
-short_name: 1kano
+short_name: 1Kano
 name: Ichiro KANO
 position: Writer
 ---
