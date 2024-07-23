@@ -1,1 +1,4 @@
-アップロードできるか検査する
+Japan Datadog User Group
+
+Managed by @IchiroKano
+Member @chaspy
