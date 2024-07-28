@@ -16,4 +16,9 @@ JDDUGとは、Datadogクラウドサービスを利用するユーザーのコ�
 - [@1kano](https://coderdojo-ome.funnygeekjp.com/profile/)
 - 仲間募集中
 
+## 問い合わせ
+
+- [Slack](https://t.co/dpBETMaosn)
+- [Form](https://forms.gle/SoJrRUvX4FcysogP9)
+- [connpass](https://datadog-jp.connpass.com/)
 
