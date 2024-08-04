@@ -17,6 +17,12 @@ JDDUGは、少なくとも3ヶ月に1回のペースでユーザー会を開催�
 
 [2024/08/07 Japan Datadog User Group Meetup#5](https://datadog-jp.connpass.com/event/324770/)
 
+## 次々回は秋頃開催しましょう
+
+「発表してもいいよ」「手伝いします」という方、フォーム[👉]でお知らせください
+[Form](https://forms.gle/SoJrRUvX4FcysogP9)
+
+
 ## 過去の開催履歴
 
 [2024/05/29 Japan Datadog User Group Meetup#4](https://datadog-jp.connpass.com/event/317091/)

@@ -13,3 +13,8 @@ table thead {
     background-color: aliceblue;
 }
 
+h2 {
+    color: purple;
+    border-left: 15px solid #8A2BE2;
+    padding-left: 8px;
+}
