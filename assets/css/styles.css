@@ -20,7 +20,7 @@ h2 {
 }
 
 /* 画像の最大幅を設定 */
-.img-responsive {
+img {
   max-width: 100%;
   height: auto;
 }
