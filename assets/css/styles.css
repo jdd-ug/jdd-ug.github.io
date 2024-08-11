@@ -1,20 +1,26 @@
 table {
-    border-collapse: collapse;
-    width: 80%;
+  border-collapse: collapse;
+  width: 80%;
 }
 
 table th,
 table td {
-    border: 1px solid black;
-    padding: 8px;
+  border: 1px solid black;
+  padding: 8px;
 }
 
 table thead {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 h2 {
-    color: purple;
-    border-left: 15px solid #8A2BE2;
-    padding-left: 8px;
+  color: purple;
+  border-left: 15px solid #8a2be2;
+  padding-left: 8px;
+}
+
+/* 画像の最大幅を設定 */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
 }
