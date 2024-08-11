@@ -7,7 +7,8 @@ layout: default
 
 JDDUG とは、Datadog クラウドサービスを利用するユーザーのコミュニティです。
 
-![JDDUG meetup](/assets/images/top_meetup.png)
+![JDDUG meetup](/assets/images/meetup5_all.jpg)
+_JDDUG5 の時に撮影した集合写真_
 
 ## 次回開催予定
 
