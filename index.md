@@ -10,15 +10,11 @@ JDDUG とは、Datadog クラウドサービスを利用するユーザーのコ
 ![JDDUG meetup](/assets/images/meetup5_all.jpg)
 _JDDUG5 の時に撮影した集合写真_
 
-## 次回開催予定
+## 次回開催予定: 10 月頃
 
 JDDUG は、少なくとも 3 ヶ月に 1 回のペースでユーザー会を開催する計画です。
 
-次回は 8 月 7 日(水)19:00 です。ただいま、参加受付中！　オンライン参加枠も追加！
-
-[2024/08/07 Japan Datadog User Group Meetup#5](https://datadog-jp.connpass.com/event/324770/)
-
-## 次々回は秋頃開催しましょう
+次回は涼しくなった頃にお会いしましょう。
 
 「発表してもいいよ」「手伝いします」という方、フォーム[👉]でお知らせください
 [Form](https://forms.gle/SoJrRUvX4FcysogP9)
