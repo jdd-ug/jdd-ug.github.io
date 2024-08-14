@@ -30,3 +30,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+permalink: /:categories/:year/:month/:day/
