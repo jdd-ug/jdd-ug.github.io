@@ -11,19 +11,19 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      type: "authors"
+      path: ''
+      type: 'authors'
     values:
-      layout: "author"
+      layout: 'author'
   - scope:
-      path: ""
-      type: "posts"
+      path: ''
+      type: 'posts'
     values:
-      layout: "post"
+      layout: 'post'
   - scope:
-      path: ""
+      path: ''
     values:
-      layout: "default"
+      layout: 'default'
 
 plugins:
   - jekyll-feed
