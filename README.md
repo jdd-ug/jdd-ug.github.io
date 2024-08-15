@@ -3,17 +3,27 @@ Japan Datadog User Group
 Managed by @IchiroKano
 Member @chaspy
 
+# Local Development
+
+```
+bundle
+bundle exec jekyll s
+open http://127.0.0.1:4000
+```
 
 # サイトを公開する
-最小限のWEBページができたのでサーチエンジンに登録します。
+
+最小限の WEB ページができたのでサーチエンジンに登録します。
 
 ---
+
 # 2024-07-07 サイト構築中
+
 ---
 
-### Jekyllを学習した。+1UP
+### Jekyll を学習した。+1UP
 
-今更だけどJekyllを学習したのでこれからはMarkDownで書けばWebを更新できる
+今更だけど Jekyll を学習したのでこれからは MarkDown で書けば Web を更新できる
 
 ### 困った事
 
@@ -23,7 +33,7 @@ Member @chaspy
 convert to <code>ERROR</code>
 ```
 
-### マークダウンファイルでWEB公開できるようになりました！
+### マークダウンファイルで WEB 公開できるようになりました！
 
 #### （手順）
 
@@ -32,34 +42,41 @@ convert to <code>ERROR</code>
 3. commit & push すれば、github actions で自動的にビルド＆デプロイされます。
 
 #### （固定ページ）下記は自由に加筆修正して構いません。
+
 - /index.md
 - /about.md
 - /heros.md
 - 画像は /assets/images に置いてください
 
 #### （ブログ）下記のファイル名で新規ファイルを作成してください。自動的にブログリストに掲載されます。
+
 - YYYY-MM-DD-TITLE.md
 - ［例］2024-07-07-topics.md
 
 ---
+
 # 2024-07-06 ランディングページ作ることにした
+
 ---
 
-### JDDUGのランディングページを作ってみることにした
+### JDDUG のランディングページを作ってみることにした
 
 ユーザー会の登壇履歴とブログがあると振り返りしやすいかな。次の発表者を募集しやすいかな。と運営で相談。
-JDDUGのサイト作りましょうかね、永続的に残りそうなGithubページで。
+JDDUG のサイト作りましょうかね、永続的に残りそうな Github ページで。
 
 ### サイトの構成はこんな感じ？ かな
 
 - トップページ
-  - JDDUGとは
+
+  - JDDUG とは
 
 - イベント
+
   - 開催予定のイベント
   - 過去の開催報告
 
 - 参加者の方へ
+
   - ユーザー会に参加するには
   - 登壇するには, 登壇者募集
   - （運営に参加したい場合は）
