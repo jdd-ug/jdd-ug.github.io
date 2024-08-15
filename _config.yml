@@ -31,3 +31,7 @@ plugins:
   - jekyll-seo-tag
 
 permalink: /:categories/:year/:month/:day/
+
+name: Japan Datadog User Group Blog Post
+description: User Community Group for Datadog
+url: https://jdd-ug.github.io/
