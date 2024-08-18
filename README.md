@@ -1,8 +1,7 @@
-# GitHub Pages
-JDDUG; Japan Datadog User Group
+# GitHub Pages of Japan Datadog User Group
 
-Managed by @IchiroKano
-Member @chaspy
+- Managed by @IchiroKano
+- Member @chaspy
 
 ## Local Development
 
@@ -19,23 +18,49 @@ GitHub Pages で JDDUGのランディングページ(LP)を公開しています
 
 ## GitHubページを更新する大まかな流れ
 
-### （手順）
-
 1. 最初に Pull して。
-2. マークダウンを編集もしくは追加。
-3. commit & push すれば、github actions で自動的にビルド＆デプロイされます。
+2. マークダウン形式のファイルを編集もしくは追加。
+3. commit & push すれば、github actions で自動的にビルド＆デプロイされます（30秒くらいかかります）。
 
-### （固定ページ）下記は自由に加筆修正して構いません。
+## （ブログページ）新しいブログを追加する方法
+下記のファイル名で新規ファイルを作成してください。自動的にブログリストに掲載されます。
+
+#### ファイル名の形式： YYYY-MM-DD-topics.md
+ ［例］2024-07-07-jddug3.md
+
+#### ブログ書式
+
+「著者の名前」はこのリポジトリで固定化すること。タイトルは日本語でよい。
+
+```
+---
+layout: post
+author: 著者の名称
+title: "ページに表示されるタイトル"
+---
+
+以下、マークダウン形式でブログ記事を記載する
+```
+
+
+## （固定ページ）更新方法
+固定ページはルート(/)にmdファイルを保存します。
+固定ページへのリンクはHTML内に記載したり、ナビゲーションメニューに表示したりします。
 
 - /index.md
 - /about.md
 - /heros.md
 - 画像は /assets/images に置いてください
 
-## （ブログ）下記のファイル名で新規ファイルを作成してください。自動的にブログリストに掲載されます。
+## （グローバルナビゲーション）更新方法
 
-- ファイル名： YYYY-MM-DD-topics.md
-- ［例］2024-07-07-jddug3.md
+［/data/navigation.yml］を更新します。
+
+例：メニュー名とそのリンク先
+```
+- name: About
+  link: /about/
+```
 
 
 ## 気になったこと
