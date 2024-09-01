@@ -7,7 +7,7 @@ title: About US
 
 JDDUG とは、Datadog クラウドサービスを利用するユーザーのコミュニティです。
 
-![集合写真](/assets/images/top_meetup.png){:width="700px" style="margin-left:100px"}
+![集合写真](/assets/images/top_meetup.png){:width="800px" style="margin-left:100px"}
 
 
 ## 発足
@@ -37,6 +37,6 @@ JDDUG とは、Datadog クラウドサービスを利用するユーザーのコ
 
 - 姉妹サイト：[韓国 Datadog Korea User Group](https://datadogkrug.vercel.app/about)
 
-![集合写真](/assets/images/krug.jpg){:width="700px" style="margin-left:100px"}
+![集合写真](/assets/images/krug.jpg){:width="1000px" style="margin-left:100px"}
 
 
