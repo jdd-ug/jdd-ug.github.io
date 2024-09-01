@@ -22,3 +22,16 @@ JDDUG とは、Datadog クラウドサービスを利用するユーザーのコ
 - [Slack](https://t.co/dpBETMaosn)
 - [Form](https://forms.gle/SoJrRUvX4FcysogP9)
 - [connpass](https://datadog-jp.connpass.com/)
+
+## 注目のサイト
+
+- 姉妹サイト：[韓国 Datadog Korea User Group](https://datadogkrug.vercel.app/about)
+
+## JDDUG ロゴ
+
+- [Logo 100x100 px](/assets/images/iconJDDUG100.png){:target="_blank"}
+- [Logo 300x300 px](/assets/images/iconJDDUG300.png){:target="_blank"}
+- [Logo 600x600 px](/assets/images/iconJDDUG600.png){:target="_blank"}
+- [Logo SVG format](/assets/images/iconJDDUG.svg){:target="_blank"}
+
+
