@@ -5,6 +5,19 @@ title: 登壇した皆様
 
 # JDDUG に登壇頂いた皆様
 
+## Meetup#6
+
+| #      | Contents                                                                                                                                                                                     | Speaker  |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 1      | [Inferred Service dependencies を試してみた](https://www.docswell.com/s/tatsuo48/5R26JN-inferred-service-dependencies)                                                                       | tatsuo48 |
+| 2      | [Datadog RUM を用いた UX 指標の監視](https://speakerdeck.com/imamura_ko_0314/datadog-rum-woyong-ita-ux-zhi-biao-nojian-shi-gu-ke-dui-ying-henohuo-yong)                                      | 今村     |
+| 3      | 障害対応における Datadog プラットフォーム機能の活用                                                                                                                                          | 笹崎     |
+| 4      | [OOM 発生時のトラブルシューティング Profiler を活用できるか調査してみた](https://speakerdeck.com/atsushii/oomfa-sheng-shi-notoraburusiyuteingu-profilerwohuo-yong-dekirukadiao-cha-sitemita) | 宮本     |
+| ------ | ------                                                                                                                                                                                       | ------   |
+| LT1    | [dd-trace-go の trace context propagation 実装](https://speakerdeck.com/takatofukui/dd-trace-gonotrace-context-propagationshi-zhuang)                                                        | 福井     |
+| LT2    | レガシーシステムへの Datadog APM 導入奮闘記                                                                                                                                                  | 竹屋     |
+| LT3    | Reckoner における Datadog Browser Test の活用事例                                                                                                                                            | 門脇     |
+
 ## Meetup#5
 
 | #      | Contents                                                                                                                                                                           | Speaker       |
