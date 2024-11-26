@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://jdd-ug.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jdd-ug.github.io/" rel="alternate" type="text/html" /><updated>2024-11-26T09:29:35+09:00</updated><id>https://jdd-ug.github.io/feed.xml</id><title type="html">Japan Datadog User Group</title><entry><title type="html">JDDUG meetup #6 を開催しました</title><link href="https://jdd-ug.github.io/2024/11/20/" rel="alternate" type="text/html" title="JDDUG meetup #6 を開催しました" /><published>2024-11-20T00:00:00+09:00</published><updated>2024-11-20T00:00:00+09:00</updated><id>https://jdd-ug.github.io/2024/11/jssug6</id><content type="html" xml:base="https://jdd-ug.github.io/2024/11/20/"><![CDATA[<p>Datadog Office で開催しました。</p>
+
+<p><a href="https://datadog-jp.connpass.com/event/334594/">connpass</a></p>
+
+<h1 id="video">動画</h1>
+
+<p>今回はリアルとリモートのハイブリットにチャレンジしました。録画は以下の YouTube でご覧いただけます。</p>
+
+<iframe id="youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/WiCaKobpaUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="margin-bottom: 20px;" allowfullscreen=""></iframe>
+
+<p><em>リンクをクリックして動画を再生すると該当の発表時間から再生できます</em></p>
+
+<p>発表1. <a href="#video" onclick="setVideoTime(0)">横山達男 (tatsuo48) / 株式会社マネーフォワード</a></p>
+<p>発表2. <a href="#video" onclick="setVideoTime(504)">今村 光希（@imamura_ko_0314） / 株式会社Goals</a> 8:24</p>
+<p>発表3. <a href="#video" onclick="setVideoTime(1058)">笹崎 日登 / アイレット株式会社</a> 17:38</p>
+<p>発表4. <a href="#video" onclick="setVideoTime(1754)">宮本 淳志 (@Atsushi68593216) / 株式会社ログラス</a> 29:14</p>
+<p>LT1. <a href="#video" onclick="setVideoTime(2248)">福井崇人 / Retty株式会社</a> 37:28</p>
+<p>LT2. <a href="#video" onclick="setVideoTime(2525)">竹屋 正樹 / キンドリルジャパン株式会社</a> 42:05</p>
+<p>LT3. <a href="#video" onclick="setVideoTime(2883)">門脇 拓巳 (@nomadblacky) / 株式会社スリーシェイク</a> 48:03</p>
+
+<script> 
+  function setVideoTime(seconds) { 
+    var iframe = document.getElementById('youtube-iframe'); 
+    iframe.src = "https://www.youtube.com/embed/WiCaKobpaUk?start=" + seconds;
+  } 
+</script>
+
+<h1 id="発表">発表</h1>
+
+<p>文字起こししたものからサマリを紹介します。</p>
+
+<h2 id="発表-1-inferred-service-dependencies-を試してみたtatsuo48">発表 1 Inferred Service dependencies を試してみた（tatsuo48）</h2>
+
+<p><img src="/assets/images/meetup6-yokoyama.jpg" alt="横山さん" /></p>
+
+<script async="" class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/5R26JN/embed" data-aspect="0.5625"></script>
+<div class="docswell-link"><a href="https://www.docswell.com/s/tatsuo48/5R26JN-inferred-service-dependencies">Inferred Service dependenciesを試してみた by @tatsuo48</a></div>
+
+<h3 id="発表の概要">発表の概要</h3>
+
+<p>発表者は Datadog の APM 機能として「Inferred Service Dependencies」を試用し、それがどのようにサービス依存関係の視認性を改善するかについて話しました。具体的な問題点として、サービスマップの複雑さと解読困難さを挙げ、その解決策としてこの新機能の利用を推奨しています。</p>
+
+<h3 id="発表の面白い点">発表の面白い点</h3>
+
+<ul>
+  <li>Datadog の既存のサービスマップが直面している視覚的および機能的な問題点を具体例を挙げて説明。</li>
+  <li>「Inferred Service Dependencies」機能がこれらの問題をどのように解決するかを実例を通じて解説。</li>
+  <li>機能導入前後の比較を示すことで、実際の効果が視覚的に理解しやすい形で提示された。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人">聞くことをお勧めする人</h3>
+
+<ol>
+  <li>サービス依存関係のマップで視覚的な混乱を経験している開発者やエンジニア。</li>
+  <li>Datadog APM を使用していて、より効果的なモニタリングツールを求めているテクニカルリードやマネージャー。</li>
+  <li>ソフトウェアアーキテクチャの複雑さを管理する方法を模索している SRE（Site Reliability Engineers）。</li>
+</ol>
+
+<h2 id="発表-2-datadog-rum-を用いた-ux-指標の監視顧客対応への活用-非エンジニアが-datadog-を使いこなす今村">発表 2 Datadog RUM を用いた UX 指標の監視・顧客対応への活用 〜非エンジニアが Datadog を使いこなす〜（今村）</h2>
+
+<p><img src="/assets/images/meetup6-imamura.jpg" alt="今村さん" /></p>
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/a4759510bdfe49e39b1ae1bed5fb5e5e" title="Datadog RUM を用いた UX 指標の監視・顧客対応への活用" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+<h3 id="概要">概要</h3>
+
+<p>今村氏は、株式会社 Goals での経験を基に、Datadog の Real User Monitoring (RUM) を活用して UX 指標を監視し、実ユーザーの体験を改善するための方法について語りました。特に、外食産業における通信環境の悪さがユーザーエクスペリエンスにどう影響するかという課題を例に取り上げ、具体的な監視戦略と解決策を提示しました。</p>
+
+<h3 id="発表の面白い点-1">発表の面白い点</h3>
+
+<ul>
+  <li>実際のユーザー体験に基づいた問題点を明確にし、Datadog RUM を使ってこれをどのように可視化し解決しているかを詳細に説明。</li>
+  <li>社内ユーザーと実ユーザーのデータを分離することで、より正確なユーザー体験の監視を実現している点。</li>
+  <li>UX 監視を通じて得られた洞察が、実際のプロダクト改善にどのように役立っているかの事例を共有。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人-1">聞くことをお勧めする人</h3>
+
+<ol>
+  <li>UX やパフォーマンス指標の改善に関心のあるウェブ開発者やプロダクトマネージャー。</li>
+  <li>Datadog や他のモニタリングツールを活用してユーザーエクスペリエンスの質を向上させたい IT 担当者。</li>
+  <li>特に外食産業など通信環境が複雑な業界で働く技術者やマネージャー。</li>
+</ol>
+
+<h2 id="発表-3-障害対応における-datadog-プラットフォーム機能の活用笹崎">発表 3 障害対応における Datadog プラットフォーム機能の活用（笹崎）</h2>
+
+<p><img src="/assets/images/meetup6-sasazaki.jpg" alt="笹崎さん" /></p>
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/7052ab8aff8a4fe8b69119ce637d5801" title="障害対応における Datadog プラットフォーム機能の活用" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+<h3 id="概要-1">概要</h3>
+
+<p>笹崎氏は iret 株式会社から、Datadog のプラットフォームを使用して障害対応プロセスを効率化する方法を示しました。この発表では、障害発生から復旧、さらにはポストモーテムまでのフローを具体的に説明し、Datadog の機能が如何にして各ステージで活用できるかをデモンストレーションしました。</p>
+
+<h3 id="発表の面白い点-2">発表の面白い点</h3>
+
+<ul>
+  <li>障害発生時のアラート検知から始まり、通知、調査、復旧、そして事後分析までの一連の流れを統一されたプラットフォーム上でどのように処理するかが具体的に語られました。</li>
+  <li>Datadog の App Builder や Workflow Automation の具体的な活用例が、実際のスクリーンショットと共に紹介され、その有効性が明らかにされた。</li>
+  <li>プロセスの自動化がいかにチームの効率を向上させるか、そして再発防止にどう貢献するかが、具体的な事例とともに示されました。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人-2">聞くことをお勧めする人</h3>
+
+<ol>
+  <li>IT 運用や障害管理の効率化に関心のあるシステム管理者や運用チーム。</li>
+  <li>Datadog や他の監視ツールを用いてインシデント管理のプロセスを改善したい IT プロフェッショナル。</li>
+  <li>自動化と観測可能性を重視し、チームの対応能力を高めたいテクノロジーリーダーやマネージャー。</li>
+</ol>
+
+<h2 id="発表-4-oom-発生時のトラブルシューティング-profiler-を活用できるか調査してみた宮本">発表 4 OOM 発生時のトラブルシューティング Profiler を活用できるか調査してみた（宮本）</h2>
+
+<p><img src="/assets/images/meetup6-miyamoto.jpg" alt="宮本さん" /></p>
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/be9172456872444b9af859f19e682ba5" title="OOM発生時のトラブルシューティング Profilerを活用できるか調査してみた" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+<h3 id="概要-2">概要</h3>
+
+<p>宮本氏は、株式会社ログラスにおいて、OOM(Out of Memory)発生時のトラブルシューティングに Datadog のプロファイラーをどの程度活用できるかを調査した経験を共有しました。特に、Java のヒープメモリー管理、OOM エラーの種類、そして発生事例を通じて、プロファイラーの有効性と限界を探りました。</p>
+
+<h3 id="発表の面白い点-3">発表の面白い点</h3>
+
+<ul>
+  <li>実際のサービス運用中に発生した OOM エラーとその対応プロセスについての具体的な事例が語られました。</li>
+  <li>Datadog プロファイラーを用いた際のメリットと、ヒープダンプとの比較を通じて、トラブルシューティング時の適用可能性が評価されました。</li>
+  <li>実際に発生した OOM 直前の状態を捉えることの難しさと、それを克服するための具体的な技術的アプローチが示されました。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人-3">聞くことをお勧めする人</h3>
+
+<ol>
+  <li>クラウドインフラのトラブルシューティングに関心のあるエンジニアやデベロッパー。</li>
+  <li>Java アプリケーションのパフォーマンス監視やメモリ管理の改善を図りたい技術者。</li>
+  <li>Datadog や他の監視ツールを活用してシステムの安定性を高めたい運用チーム。</li>
+</ol>
+
+<h2 id="lt1-dd-trace-go-の-trace-context-propagation-実装-福井">LT1 dd-trace-go の trace context propagation 実装 (福井)</h2>
+
+<p><img src="/assets/images/meetup6-fukui.jpg" alt="福井さん" /></p>
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/ba1d03f674d44db98fac1d6a956a4525" title="dd-trace-goのtrace context propagation実装" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+<h3 id="概要-3">概要</h3>
+
+<p>福井氏は、dd-trace-go ライブラリの trace context propagation の実装について詳細な説明を行いました。このライブラリを使うことで、Go 言語で書かれたアプリケーション間でトレースコンテキストを効果的に伝播させることが可能になり、分散システム間のデバッグとモニタリングを効率的に行えます。</p>
+
+<h3 id="発表の面白い点-4">発表の面白い点</h3>
+
+<ul>
+  <li>TraceContextPropagation の具体的な実装方法と、それを支える dd-trace-go の内部機能について具体的に説明しました。</li>
+  <li>HTTP と gRPC でのトレースコンテキストの伝搬方法の違いとその実装例を示し、実際のアプリケーション開発における応用可能性を展開しました。</li>
+  <li>Go 言語におけるトレースの伝播を通じて、システム全体のトレーサビリティを向上させる方法を詳細に述べました。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人-4">聞くことをお勧めする人</h3>
+
+<ol>
+  <li>マイクロサービスアーキテクチャを採用している開発者やアーキテクト。</li>
+  <li>Go 言語で分散システムを開発しているエンジニア。</li>
+  <li>APM ツールの導入または効果的な利用方法を探求している IT プロフェッショナル。</li>
+</ol>
+
+<h2 id="lt2-レガシーシステムへの-datadog-apm-導入奮闘記-竹屋">LT2 レガシーシステムへの Datadog APM 導入奮闘記 (竹屋)</h2>
+
+<p><img src="/assets/images/meetup6-takeya.jpg" alt="竹屋さん" /></p>
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/cc120665e84d46c684ac0d10fd209ce2" title="レガシーシステムへのDatadog APM導入奮闘記" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+<h3 id="概要-4">概要</h3>
+
+<p>竹屋氏は、キンドリルジャパンから、レガシーシステム、特にオンプレミス環境に Datadog APM を導入する際の経験と課題を共有しました。彼の話は、Datadog を利用して既存のインフラをモニタリングし、クラウドへの移行を支援する過程の実例に焦点を当てています。</p>
+
+<h3 id="発表の面白い点-5">発表の面白い点</h3>
+
+<ul>
+  <li>オンプレミスシステムにおける Datadog の導入に関する具体的な課題と解決策について詳細に語りました。</li>
+  <li>AIX サーバーなどの古いシステムにカスタムエージェントを導入し、ログを収集・転送する独自の方法を開発した経験が興味深いです。</li>
+  <li>Salesforce の障害発生時に Datadog がどのように役立ったかの事例を交え、リアルタイムの監視の重要性を強調しました。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人-5">聞くことをお勧めする人</h3>
+
+<ol>
+  <li>レガシーシステムやオンプレミス環境に新しいモニタリングツールを導入しようと考えている IT マネージャーやエンジニア。</li>
+  <li>Datadog や他のクラウドベースの監視ツールを活用してシステムの可視性を向上させたい技術者。</li>
+  <li>クラウド移行プロジェクトに関わっているプロジェクトマネージャーとインフラエンジニア。</li>
+</ol>
+
+<h2 id="lt3-reckoner-における-datadog-browser-test-の活用事例-門脇">LT3 Reckoner における Datadog Browser Test の活用事例 (門脇)</h2>
+
+<p><img src="/assets/images/meetup6-kadowaki.jpg" alt="門脇さん" /></p>
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/8b60f0e93fff424e8f78cc34346037e5" title="Reckoner における Datadog Browser Test の活用事例 / Datadog Browser Test at Reckoner" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+<h3 id="概要-5">概要</h3>
+
+<p>門脇氏は、Reckoner というデータ連携サービスでの Datadog ブラウザテストの具体的な使用例を紹介しました。彼は、サービスの死活監視、デプロイ後の自動動作確認、およびパフォーマンスチューニングの文脈でこのツールをどのように活用しているかを詳述しました。</p>
+
+<h3 id="発表の面白い点-6">発表の面白い点</h3>
+
+<ul>
+  <li>Datadog ブラウザテストを使用してエンドツーエンドのテストを簡単に構築し、運用している具体的な手法について語りました。</li>
+  <li>実際のデモを通じて、ブラウザテストの設定と実行のプロセスを視覚的に示し、聴衆に具体的なイメージを提供しました。</li>
+  <li>テストの自動化が開発プロセスにどのように統合されているか、特にデプロイ後の検証とパフォーマンスの計測に焦点を当てました。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人-6">聞くことをお勧めする人</h3>
+
+<ol>
+  <li>Web アプリケーションの品質保証や運用監視に興味のある QA エンジニアや運用マネージャー。</li>
+  <li>Datadog や他のシンセティックモニタリングツールを活用してユーザーエクスペリエンスを向上させたい開発者。</li>
+  <li>デプロイ自動化やパフォーマンス監視を強化したいテクノロジーリーダー。</li>
+</ol>
+
+<h1 id="余興">余興</h1>
+
+<p>今回かのさんが sli.do の機能で Datadog クイズを実施しました。普通に難しかったですね… ランキング載せておきます！</p>
+
+<p><img src="/assets/images/meetup6_ranking.png" alt="クイズのランキング" />
+<em>クイズのランキング</em></p>
+
+<p>景品を Get した人たち！</p>
+
+<p><img src="/assets/images/present1.jpg" alt="景品1" />
+<em>全問正解おめでとうございます！ピンボケすみません！</em></p>
+
+<p><img src="/assets/images/present2.jpg" alt="景品2" />
+<em>3 位&amp;4 位</em></p>
+
+<p><img src="/assets/images/present3.jpg" alt="景品3" />
+<img src="/assets/images/present4.jpg" alt="景品4" />
+<em>かわいいデザインですね</em></p>
+
+<h1 id="終わりに">終わりに</h1>
+
+<p>今回お集まりいただいた参加者、発表者の皆様、Datadog の皆様、Taiji さんいつもありがとうございます！</p>
+
+<p>次回は 2 月か 3 月頃お会いしましょう！</p>
+
+<p><img src="/assets/images/meetup6-all.jpg" alt="集合写真" />
+<em>集合写真</em></p>
+
+<p>All Photos by @chaspy</p>]]></content><author><name>chaspy</name></author><summary type="html"><![CDATA[Datadog Office で開催しました。]]></summary></entry><entry><title type="html">第5回JDDUGの動画を YouTube に公開しました</title><link href="https://jdd-ug.github.io/2024/09/03/" rel="alternate" type="text/html" title="第5回JDDUGの動画を YouTube に公開しました" /><published>2024-09-03T00:00:00+09:00</published><updated>2024-09-03T00:00:00+09:00</updated><id>https://jdd-ug.github.io/2024/09/jddug5-youtube</id><content type="html" xml:base="https://jdd-ug.github.io/2024/09/03/"><![CDATA[<p><a href="https://jdd-ug.github.io/2024/08/07/">#JDDUG5</a> の発表の様子を YouTube に公開しました。</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fIRJfce6KsY?si=nTtjgYOr3KlxrilO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p>動画を文字起こしし、発表のサマリ生成にもチャレンジしました。これを読んで気になった方はぜひ動画も視聴ください！</p>
+
+<hr />
+
+<h2 id="datadog-apm-による性能改善から始める技術的負債解消--mopp--株式会社リクルート">Datadog APM による性能改善から始める技術的負債解消 / mopp / 株式会社リクルート</h2>
+
+<h3 id="発表の概要を-3-行で">発表の概要を 3 行で</h3>
+
+<ul>
+  <li>mopp 氏は Datadog を利用して性能改善を行い、技術的負債の解消につなげるプロセスを説明。</li>
+  <li>具体的な Datadog の機能を活用し、レガシーソフトウェアの改善事例を共有。</li>
+  <li>性能指標としてレイテンシを中心に話が展開された。</li>
+</ul>
+
+<h3 id="発表の面白い点を-3-行で">発表の面白い点を 3 行で</h3>
+
+<ul>
+  <li>Datadog のダッシュボード、APM、コンティニュアスプロファイラーを組み合わせた包括的なモニタリングと改善アプローチを提示。</li>
+  <li>性能分析における具体的な指標の選定と改善手法の詳細な説明が有益。</li>
+  <li>技術的負債と戦う上での戦略的アプローチと Datadog の有効活用法が示された。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人を-3-種類">聞くことをお勧めする人を 3 種類</h3>
+
+<ul>
+  <li>システムのパフォーマンス改善に取り組むエンジニア</li>
+  <li>Datadog や他の APM ツールを使用して監視を強化したい IT マネージャー</li>
+  <li>レガシーシステムの更新や技術的負債の解消に興味のある開発者</li>
+</ul>
+
+<h2 id="dmm-の動画-sre-における-datadog-の活用について--kosuke-sugano--合同会社-dmmcom">DMM の動画 SRE における Datadog の活用について / Kosuke Sugano / 合同会社 DMM.com</h2>
+
+<h3 id="発表の概要を-3-行で-1">発表の概要を 3 行で</h3>
+
+<ul>
+  <li>Kosuke Sugano 氏は DMM の動画配信サービスでの Datadog の使用事例を共有。</li>
+  <li>インフラからアプリケーションの監視まで、多岐にわたる Datadog の機能の活用法を詳細に説明。</li>
+  <li>特に動画配信の特性に合わせたカスタムメトリクスとダッシュボードの設計に焦点を当てた。</li>
+</ul>
+
+<h3 id="発表の面白い点を-3-行で-1">発表の面白い点を 3 行で</h3>
+
+<ul>
+  <li>動画配信サービスの SRE として直面する特有の課題と解決策の提示。</li>
+  <li>Datadog を用いたリアルタイムでのパフォーマンス監視と障害対応の効率化。</li>
+  <li>カスタムメトリクスを活用した詳細なトラブルシューティングとシステム最適化の事例。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人を-3-種類-1">聞くことをお勧めする人を 3 種類</h3>
+
+<ul>
+  <li>動画配信技術に関わるエンジニアやマネージャー</li>
+  <li>リアルタイムでの大規模データ処理が必要な SRE</li>
+  <li>監視ツールを活用してシステムの可視性を向上させたい IT プロフェッショナル</li>
+</ul>
+
+<h2 id="trace-queries-の活用で-freee-会計の-db-負荷削減のきっかけとした話--大木竜勝--freee-株式会社">Trace Queries の活用で freee 会計の DB 負荷削減のきっかけとした話 / 大木竜勝 / freee 株式会社</h2>
+
+<h3 id="発表の概要を-3-行で-2">発表の概要を 3 行で</h3>
+
+<ul>
+  <li>大木竜勝氏は freee 会計ソフトウェアの DB 負荷を削減するプロジェクトについて説明。</li>
+  <li>Datadog の Trace Queries を使用して問題のあるクエリを特定し、効率的な改善策を実施。</li>
+  <li>DB のパフォーマンス改善が全体のアプリケーション性能にどのように影響するかを示した。</li>
+</ul>
+
+<h3 id="発表の面白い点を-3-行で-2">発表の面白い点を 3 行で</h3>
+
+<ul>
+  <li>DB 負荷削減に特化した具体的な Datadog の活用法の紹介。</li>
+  <li>N プラス 1 問題の特定と解消に焦点を当てた実践的なデータ分析。</li>
+  <li>データベース最適化によるユーザーエクスペリエンスの向上とシステム安定性の事例展開。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人を-3-種類-2">聞くことをお勧めする人を 3 種類</h3>
+
+<ul>
+  <li>データベースのパフォーマンスチューニングに関心がある DBA や開発者</li>
+  <li>クラウドベースの会計ソフトウェアに従事する技術者</li>
+  <li>パフォーマンス問題の特定と解決に役立つツールを求める技術リーダー</li>
+</ul>
+
+<h2 id="lt1-kubernetes-で-datadog-を飼うならオートディスカバリー機能を使わないと損--田中-篤志-bgpat--ウォンテッドリー株式会社">LT1 Kubernetes で Datadog を飼うならオートディスカバリー機能を使わないと損 / 田中 篤志 (@bgpat) / ウォンテッドリー株式会社</h2>
+
+<h3 id="発表の概要を-3-行で-3">発表の概要を 3 行で</h3>
+
+<ul>
+  <li>田中篤志氏は Kubernetes 環境での Datadog のオートディスカバリー機能の利点を解説。</li>
+  <li>この機能により、ダイナミックに変化するマイクロサービスの監視を自動化し、運用の効率化を図る方法を提示。</li>
+  <li>具体的な設定例と実際の監視シナリオを共有。</li>
+</ul>
+
+<h3 id="発表の面白い点を-3-行で-3">発表の面白い点を 3 行で</h3>
+
+<ul>
+  <li>オートディスカバリー機能を用いることでのデプロイメントの自動化とエラーフリーな監視の実現。</li>
+  <li>Kubernetes 特有の問題への対応策としてのベストプラクティスの提供。</li>
+  <li>実際の運用フローと統合されたデモンストレーションが具体的で理解しやすい。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人を-3-種類-3">聞くことをお勧めする人を 3 種類</h3>
+
+<ul>
+  <li>Kubernetes を使用しているデベロッパーおよびオペレーター</li>
+  <li>自動化された監視システムを構築したい IT プロフェッショナル</li>
+  <li>クラウドインフラストラクチャの効率化を図りたいエンジニア</li>
+</ul>
+
+<h2 id="lt2-datadog-で-phplaravel-アプリケーションを監視する--林-正紀-m_norii--株式会社オープンロジ">LT2 Datadog で PHP/Laravel アプリケーションを監視する / 林 正紀 (@m_norii) / 株式会社オープンロジ</h2>
+
+<h3 id="発表の概要を-3-行で-4">発表の概要を 3 行で</h3>
+
+<ul>
+  <li>林正紀氏は PHP/Laravel を使用したアプリケーションの監視における Datadog の適用事例を紹介。</li>
+  <li>特に非同期ジョブの監視に焦点を当て、Datadog のカスタムメトリクスとダッシュボードの設定方法を詳述。</li>
+  <li>実際の問題解決事例を通じて監視の重要性と効果を強調。</li>
+</ul>
+
+<h3 id="発表の面白い点を-3-行で-4">発表の面白い点を 3 行で</h3>
+
+<ul>
+  <li>PHP/Laravel アプリケーションの特定の課題に対応する Datadog のカスタム設定の詳細な解説。</li>
+  <li>非同期ジョブの監視を通じたパフォーマンスの最適化と問題解決の事例。</li>
+  <li>実際のアプリケーションでの Datadog の実装方法と効果の実証。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人を-3-種類-4">聞くことをお勧めする人を 3 種類</h3>
+
+<ul>
+  <li>PHP や Laravel を用いたアプリケーションの開発者</li>
+  <li>カスタムメトリクスを利用して監視環境をカスタマイズしたい技術者</li>
+  <li>非同期ジョブを含む複雑なアプリケーションのパフォーマンスを監視したいエンジニア</li>
+</ul>
+
+<h2 id="lt3-slo-導入と-datadog-slo-dashboard--matsutani-yuki-honyanya-honyanyas--株式会社-adways-deee">LT3 SLO 導入と Datadog SLO Dashboard / Matsutani Yuki (honyanya @honyanyas) / 株式会社 ADWAYS DEEE</h2>
+
+<h3 id="発表の概要を-3-行で-5">発表の概要を 3 行で</h3>
+
+<ul>
+  <li>Matsutani Yuki 氏は、自社の広告プラットフォームで SLO（サービスレベル目標）の導入と、Datadog SLO ダッシュボードの利用経験を共有。</li>
+  <li>SLO の策定から実装、監視までのプロセスを詳しく説明。</li>
+  <li>実際の事例を通じて、SLO がビジネスに与えるポジティブな影響を強調。</li>
+</ul>
+
+<h3 id="発表の面白い点を-3-行で-5">発表の面白い点を 3 行で</h3>
+
+<ul>
+  <li>SLO の導入プロセスの具体的なステップとその効果の説明。</li>
+  <li>Datadog を使用したリアルタイムでのパフォーマンス監視と調整。</li>
+  <li>チーム間での SLO の共有と、それに基づく意思決定のスピードアップの実例。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人を-3-種類-5">聞くことをお勧めする人を 3 種類</h3>
+
+<ul>
+  <li>パフォーマンス管理に SLO を取り入れたい企業の IT マネージャー</li>
+  <li>データドリブンでサービス改善を目指すビジネスアナリスト</li>
+  <li>サービスの信頼性とユーザー体験の向上にコミットする全てのエンジニア</li>
+</ul>
+
+<h2 id="lt4-aws-summit-japan-の-datadog-ブースに立ち寄って得られた-apm-活用--兒玉拓也anecho108--株式会社インゲージ">LT4 AWS Summit Japan の Datadog ブースに立ち寄って得られた APM 活用 / 兒玉拓也(@anecho108) / 株式会社インゲージ</h2>
+
+<h3 id="発表の概要を-3-行で-6">発表の概要を 3 行で</h3>
+
+<ul>
+  <li>兒玉拓也氏は、AWS Summit Japan での Datadog ブース訪問を通じて得た APM の知識と活用法を共有。</li>
+  <li>Datadog APM の機能を活用して、自社サービスのパフォーマンス監視と最適化の事例を詳細に説明。</li>
+  <li>特に、リアルタイムトラブルシューティングとパフォーマンス改善に焦点を当てた。</li>
+</ul>
+
+<h3 id="発表の面白い点を-3-行で-6">発表の面白い点を 3 行で</h3>
+
+<ul>
+  <li>Datadog の APM 機能による具体的な監視と問題解決のプロセスの詳細な解説。</li>
+  <li>AWS のリソースと Datadog の統合利用によるシームレスな監視体験。</li>
+  <li>イベントに参加して得た最新情報を即座に実践に活かす具体例が興味深い。</li>
+</ul>
+
+<h3 id="聞くことをお勧めする人を-3-種類-6">聞くことをお勧めする人を 3 種類</h3>
+
+<ul>
+  <li>AWS を使用している開発者やシステム管理者</li>
+  <li>リアルタイムのアプリケーションパフォーマンス監視を求める技術者</li>
+  <li>APM ツールを活用して即時のパフォーマンス改善を図りたい IT プロフェッショナル</li>
+</ul>]]></content><author><name>chaspy</name></author><summary type="html"><![CDATA[#JDDUG5 の発表の様子を YouTube に公開しました。]]></summary></entry><entry><title type="html">Datadog Live Tokyo 2024 にコミュニティメンバーがパネルセッションに参加しました</title><link href="https://jdd-ug.github.io/2024/08/31/" rel="alternate" type="text/html" title="Datadog Live Tokyo 2024 にコミュニティメンバーがパネルセッションに参加しました" /><published>2024-08-31T00:00:00+09:00</published><updated>2024-08-31T00:00:00+09:00</updated><id>https://jdd-ug.github.io/2024/08/datadog-live-tokyo</id><content type="html" xml:base="https://jdd-ug.github.io/2024/08/31/"><![CDATA[<p>開催日: 2024 年 7 月 30 日</p>
+
+<ul>
+  <li><a href="https://www.datadoghq.com/ja/event/datadoglive-tokyo202407/">公式の LP</a></li>
+</ul>
+
+<p>先月開催された Datadog Live Tokyo にコミュニティメンバーがパネルセッションに登壇しました。</p>
+
+<p>トークテーマは以下の 4 つでした。</p>
+
+<ol>
+  <li>メトリクスを活用したリソースやインフラコスト最適化</li>
+  <li>Notebook を活用した過去イベント振り返り</li>
+  <li>SLO の導入・活用ってどこまで出来てるのか</li>
+  <li>SRE・インフラまわりと開発メンバーとの責任分界点について</li>
+</ol>
+
+<p>参加レポート書いていただきありがとうございます！</p>
+
+<ul>
+  <li><a href="https://zenn.dev/mkdevelop/scraps/2e3fc7933e3312">Datadog Live Tokyo 2024 scraps</a></li>
+</ul>
+
+<p>メンバーはみんないただいた Datadog パーカーを着ています。お揃いですね！</p>
+
+<p>以下、写真レポートと各メンバーの感想です。</p>
+
+<p><img src="/assets/images/live-tokyo-all.JPG" alt="live-tokyo-all.JPG" /></p>
+
+<h2 id="モデレーター-萩野-たいじ">モデレーター: 萩野 たいじ</h2>
+
+<p><img src="/assets/images/live-tokyo-taiji.JPG" alt="taiji" /></p>
+
+<p>(萩野) 今回、Datadog Live Tokyo という日本現地の自社イベントにおいて、ユーザーコミュニティ（JDDUG）のみなさんをパネリストにお呼びし、モデレーターを努めさせていただき、Datadog のデベロッパーアドボケイトとしてはとても嬉しかったです！
+パネリストは、みなさんコアなユーザーなので、モデレーターのわたしが進行なくても、話が自走していく様が印象的でした。とても楽しいお話ばかりで、あっという間の 1 時間でした！
+ちなみに、このパネルのメンバーが決まった後に、パネリストから JDDUG の次回イベントの登壇者が決まったりと、素敵な流れもできてました。これをきっかけに JDDUG がどんどん盛り上がっていくと良いですね！</p>
+
+<h2 id="パネラー-鹿野-市郎">パネラー: 鹿野 市郎</h2>
+
+<p><img src="/assets/images/live-tokyo-kano.JPG" alt="kano" /></p>
+
+<p>（鹿野）私の視点はインフラ寄りな話が多かったのですが、他の皆さんのアプリ寄りな SRE 実践はとても刺激的でした。また、JDDUG の宣伝時間もいただき感謝しています。パネルセッションの後、多くの方々から声をかけていただき、とてもありがたかったです。そして、ずっと欲しかった Datadog のパーカーを着ることができたのが嬉しかったです。P.S.スクラップすごくイイ！</p>
+
+<h2 id="パネラー-大木-竜勝">パネラー: 大木 竜勝</h2>
+
+<p><img src="/assets/images/live-tokyo-ooki.JPG" alt="ooki" /></p>
+
+<p>(大木)初めてのイベント登壇で緊張していましたが多くの話題を振っていただきなんとか落ち着いて話すことが出来ました。ダッシュボードや Notebook など普段から利用しているツールでもそれぞれの会社によって使い方に特色があって私自身も学びの多いイベントでした。また、パネルセッション後にも色々な方から datadog の使い方について議論することができ貴重な機会となりました。</p>
+
+<h2 id="パネラー-菅野-滉介">パネラー: 菅野 滉介</h2>
+
+<p><img src="/assets/images/live-tokyo-sugano.JPG" alt="sugano" /></p>
+
+<p>(菅野) 初のパネリスト登壇でしたが、意見交換の形でのトークはとても意義のある機会でした。特に Notebook については自分から議題に上げたこともありそれなりに活用しているつもりでしたが、アラート振り返りのためにスクリプトで収集してからの import など、違った観点での便利な使い方が話し合いで聞けたのはとてもよかったです。貴重な機会をいただきありがとうございました。</p>
+
+<h2 id="パネラー-近藤-健司">パネラー: 近藤 健司</h2>
+
+<p><img src="/assets/images/live-tokyo-chaspy.JPG" alt="chaspy" /></p>
+
+<p>(近藤) パネルに初めて出演させてもらいました。多様なメンバーで出演したこともあり、いろんなトークができたと思います。Notebook というニッチな機能をテーマに話したのは面白かったです。もっと会場の皆さんとインタラクティブにできるともっと良かったなと思いました。ありがとうございました！</p>
+
+<p><img src="/assets/images/live-tokyo-all2.JPG" alt="live-tokyo-all2.JPG" /></p>
+
+<p>All Photos by Datadog Live Tokyo Staff</p>]]></content><author><name>chaspy</name></author><summary type="html"><![CDATA[開催日: 2024 年 7 月 30 日]]></summary></entry><entry><title type="html">RSS で取得した Datadog 関連記事を生成 AI で要約して Slack に流す仕組み</title><link href="https://jdd-ug.github.io/2024/08/24/" rel="alternate" type="text/html" title="RSS で取得した Datadog 関連記事を生成 AI で要約して Slack に流す仕組み" /><published>2024-08-24T00:00:00+09:00</published><updated>2024-08-24T00:00:00+09:00</updated><id>https://jdd-ug.github.io/2024/08/rss-summery-to-slack</id><content type="html" xml:base="https://jdd-ug.github.io/2024/08/24/"><![CDATA[<p>Organizer の @chaspy です。この記事では JDDUG の Slack に Datadog 関連記事を要約して流す方法について紹介します。これをみて興味を持った人はぜひ <a href="https://t.co/dpBETMaosn">Slack にも参加</a>いただけると嬉しいです！</p>
+
+<p>免責事項: この仕組みは <a href="https://platformengineering.connpass.com/">Platform Engineering Meetup</a> 主催の <a href="https://twitter.com/jacopen">@jacopen</a> さんがやっている方法をほぼそのまま実装したものです。この場を借りて感謝申し上げます。参照: <a href="https://x.com/jacopen/status/1786273957827748062">X: Feedly AI を使って集めた記事を OpenAI API で要約させて Slack に投げるパイプラインを作った</a></p>
+
+<h1 id="完成したもの">完成したもの</h1>
+
+<h2 id="datadog-公式-rss-の要約">Datadog 公式 RSS の要約</h2>
+
+<p><img src="/assets/images/rss-datadog.png" alt="Datadog 公式 RSS の要約" /></p>
+
+<h2 id="medium-や-zenn-などの-blog-記事の要約">Medium や Zenn などの Blog 記事の要約</h2>
+
+<p><img src="/assets/images/rss-blog.png" alt="Medium や Zenn などの Blog 記事の要約" /></p>
+
+<h1 id="仕組み">仕組み</h1>
+
+<p>Workflow を make.com で作成し、Feedly / OpenAI / Slack とそれぞれ Integration しています。</p>
+
+<p><img src="/assets/images/rss-make.png" alt="make.com で作成した workflow" /></p>
+
+<p>Feedly の方で事前にフォルダ単位で RSS を登録しておきます。</p>
+
+<p><img src="/assets/images/rss-feedly.png" alt="Feedly" /></p>
+
+<p>Watch Articles というモジュールを利用しています。</p>
+
+<p>OpenAI Integration では記事を要約させます。</p>
+
+<p><img src="/assets/images/rss-openai.png" alt="alt text" /></p>
+
+<p>messagee content は以下のようにしてプロンプトを組み立てています。こちらも @jacopen さんから教えていただいたものほぼそのままです。(若干親しみやすい一言を絵文字付きで入れるところをアレンジしたぐらい)</p>
+
+<hr />
+
+<p>以下の内容を要約して、日本語で出力してください。</p>
+
+<p>最初に以下を発言してください。</p>
+
+<p>🔍🔍🔍 新しい記事が見つかったよ 💡💡💡
+<code class="language-plaintext highlighter-rouge">2.title</code>
+<code class="language-plaintext highlighter-rouge">2.alternate[].href'</code></p>
+
+<p>次に箇条書きでポイントを整理し、その後内容を要約する文章を出力してください。</p>
+
+<p>箇条書きポイントを書く際のヘッダは
+★ この記事のポイント</p>
+
+<p>内容の要約は
+★ 要約</p>
+
+<p>としてください。</p>
+
+<p>==で囲まれた内容でコンテンツを与えますので、それを要約してください。
+もしコンテンツがなければ、次の URL にアクセスして内容を要約してください。</p>
+
+<p>最後に、この記事を読んでみたくなるような感想を絵文字付きで、親しみやすい口調で 1 行で添えてください。</p>
+
+<p>==
+<code class="language-plaintext highlighter-rouge">2.summary</code>
+<code class="language-plaintext highlighter-rouge">2.content</code>
+==</p>
+
+<hr />
+
+<p>最後の Slack のところは特段説明不要でできると思います。</p>
+
+<p>make.com の無料枠に収まるように、1 日 1 回の実行をしています。特に英語記事を要約してくれるのは助かりますね。</p>
+
+<p>流れた記事について Slack Thread でコミュニティメンバーでワイワイできるともっと楽しいだろうなと思っております。</p>
+
+<p>以上、RSS で取得した記事を Slack に要約して流す仕組みでした。いろんなコミュニティで有用だと思うのでぜひ試してみてください。</p>
+
+<p>なお JDDUG LP の Post も同様に流れるようにしているので、この記事も流れるはずです w</p>
+
+<p>それでは良い Datadog Life を！</p>]]></content><author><name>chaspy</name></author><summary type="html"><![CDATA[Organizer の @chaspy です。この記事では JDDUG の Slack に Datadog 関連記事を要約して流す方法について紹介します。これをみて興味を持った人はぜひ Slack にも参加いただけると嬉しいです！]]></summary></entry><entry><title type="html">第5回JDDUGを開催しました</title><link href="https://jdd-ug.github.io/2024/08/07/" rel="alternate" type="text/html" title="第5回JDDUGを開催しました" /><published>2024-08-07T00:00:00+09:00</published><updated>2024-08-07T00:00:00+09:00</updated><id>https://jdd-ug.github.io/2024/08/jddug5</id><content type="html" xml:base="https://jdd-ug.github.io/2024/08/07/"><![CDATA[<p>開催日: 2024 年 8 月 7 日</p>
+
+<p>今回は Datadog オフィスではなく、大崎の Findy さんのオフィスで開催しました。</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fIRJfce6KsY?si=nTtjgYOr3KlxrilO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<p><img src="/assets/images/meetup5_kano.jpg" alt="オープニングのかのさん" />
+<em>オープニングのかのさん</em></p>
+
+<p><img src="/assets/images/meetup5_findy.jpg" alt="Findyさんから会場説明と IPA の説明" />
+<em>Findy さんから会場説明と IPA の説明</em></p>
+
+<p><img src="/assets/images/meetup5_mopp.jpg" alt="moppさん" />
+<em>mopp さん 今回もかわいいアイコンがフリー素材として紹介されました</em></p>
+
+<p><img src="/assets/images/meetup5_sugano.jpg" alt="suganoさん" />
+<em>sugano さん 動画配信における Datadog 活用について</em></p>
+
+<p><img src="/assets/images/meetup5_ooki.jpg" alt="ookiさん" />
+<em>ooki さん Trace Query でパフォーマンス改善を行った事例</em></p>
+
+<p><img src="/assets/images/meetup5_bgpad.jpg" alt="bgpadさん" />
+<em>bgpad さん Kubernetes での Auto Discovery の紹介</em></p>
+
+<p><img src="/assets/images/meetup5_norii.jpg" alt="noriiさん" />
+<em>norii さん Laravel を使っている人〜？と聞いている様子</em></p>
+
+<p><img src="/assets/images/meetup5_honyanya.jpg" alt="honyanyaさん" />
+<em>honyanya さん SLO を定めるお話</em></p>
+
+<p><img src="/assets/images/meetup5_anecho108.jpg" alt="anechoさん" />
+<em>anecho さん こちらも SLO を設定するお話</em></p>
+
+<h2 id="participant">集合写真</h2>
+
+<p><img src="/assets/images/meetup5_all.jpg" alt="集合写真" />
+<em>集合写真。Datadog の D のマークです。</em></p>
+
+<p>Almost Photos by @chaspy and the last photo by Datadog Staff</p>]]></content><author><name>chaspy</name></author><summary type="html"><![CDATA[開催日: 2024 年 8 月 7 日]]></summary></entry><entry><title type="html">第4回 JDDUG開催しました</title><link href="https://jdd-ug.github.io/2024/05/29/" rel="alternate" type="text/html" title="第4回 JDDUG開催しました" /><published>2024-05-29T00:00:00+09:00</published><updated>2024-05-29T00:00:00+09:00</updated><id>https://jdd-ug.github.io/2024/05/jddug4</id><content type="html" xml:base="https://jdd-ug.github.io/2024/05/29/"><![CDATA[<p>開催日: 2024年05月29日</p>
+
+<h1 id="会場があれば開催できる-目標3ヶ月毎のイベント">会場があれば開催できる！ 目標3ヶ月毎のイベント</h1>
+
+<p>5月の会場開催は参加者33名<br />
+なんとLT枠は最大4名枠に7名の申し込み。全員登壇お願いしちゃいました！</p>
+
+<p><img src="/assets/images/meetup04.png" alt="Alt text for broken image link" /></p>
+
+<p>会場参加のメリットは通勤したくなるDatadogカフェテリアを見学できること</p>
+
+<p><img src="/assets/images/meetup04b.png" alt="Alt text for broken image link" /></p>]]></content><author><name>1Kano</name></author><summary type="html"><![CDATA[開催日: 2024年05月29日]]></summary></entry><entry><title type="html">第3回 Datadog東京オフィスで開催</title><link href="https://jdd-ug.github.io/2024/03/13/" rel="alternate" type="text/html" title="第3回 Datadog東京オフィスで開催" /><published>2024-03-13T00:00:00+09:00</published><updated>2024-03-13T00:00:00+09:00</updated><id>https://jdd-ug.github.io/2024/03/jddug3</id><content type="html" xml:base="https://jdd-ug.github.io/2024/03/13/"><![CDATA[<p>開催日: 2024年03月13日</p>
+
+<h1 id="会場スポンサーのサポートでjddug再始動">会場スポンサーのサポートでJDDUG再始動！</h1>
+
+<p>初の会場開催は参加者57名<br />
+東京駅KITTEが入っているJPタワーの19階がDatadog東京オフィス、素晴らしい立地です。<br />
+しかも会場はカフェテリア。ドリンクとフードまで提供いただき親睦会も開催できました！</p>
+
+<p><img src="/assets/images/meetup03.png" alt="Alt text for broken image link" /></p>]]></content><author><name>1Kano</name></author><summary type="html"><![CDATA[開催日: 2024年03月13日]]></summary></entry><entry><title type="html">第2回 モブプロとロゴ決定</title><link href="https://jdd-ug.github.io/2020/12/22/" rel="alternate" type="text/html" title="第2回 モブプロとロゴ決定" /><published>2020-12-22T00:00:00+09:00</published><updated>2020-12-22T00:00:00+09:00</updated><id>https://jdd-ug.github.io/2020/12/jddug2</id><content type="html" xml:base="https://jdd-ug.github.io/2020/12/22/"><![CDATA[<p>開催日: 2020年12月22日</p>
+
+<h1 id="対話形式でのセッションそしてロゴを投票">対話形式でのセッション。そしてロゴを投票</h1>
+
+<p>オンライン開催の参加者は82名。<br />
+発表するときに参加者の反応も欲しいのでオンラインだけど出来るだけミュートを解除して対話しながらスタート。<br />
+Datadogを使いこなすためにUIをいじりながら知見ノウハウを共有するところがいいなと思いました。<br />
+複数人で同時にDatadogをセットアップしつつ機能を理解するモブプロにも模索的挑戦してみた。</p>
+
+<p><img src="/assets/images/meetup02.png" alt="Alt text for broken image link" /></p>
+
+<p>二回目もYoutube Live 配信なのでアーカイブを視聴できちゃいます。
+<a href="https://www.youtube.com/watch?v=koDqIM_0090">Youtube, Japan Datadog User Group Meetup#2</a></p>
+
+<h3 id="投票で決まったロゴの意味は">投票で決まったロゴの意味は？</h3>
+<p>そしてこの日、JDDUGのロゴを投票で決定しました。<br />
+この絵なに？と思った方、ロゴのコンセプトは、JDDUGの頭文字から連想したJapan Dog has Dugだったのです。<strong>日本の犬が情報システムを深堀する</strong>のですね!!</p>
+
+<p><img src="/assets/images/meetup02b.png" alt="Alt text for broken image link" /></p>]]></content><author><name>1Kano</name></author><summary type="html"><![CDATA[開催日: 2020年12月22日]]></summary></entry><entry><title type="html">初めてのミートアップ開催</title><link href="https://jdd-ug.github.io/2020/08/25/" rel="alternate" type="text/html" title="初めてのミートアップ開催" /><published>2020-08-25T00:00:00+09:00</published><updated>2020-08-25T00:00:00+09:00</updated><id>https://jdd-ug.github.io/2020/08/jddug1</id><content type="html" xml:base="https://jdd-ug.github.io/2020/08/25/"><![CDATA[<p>開催日: 2020年8月25日</p>
+
+<h1 id="初回のjddugを開催">初回のJDDUGを開催</h1>
+
+<p>新型コロナウイルスが2019年12月に発生して8ヶ月後、在宅勤務やZoomでのコミュニティが定常になったころ @chaspy さんの呼びかけで、初のDatadogユーザーコミュニティはZoomオンライン開催として募集が始まった。初回の参加者は155名、発表者は4名。参加者は、他の皆さんがDatadogをどんな感じに使っているのか聞いてみたいという感じでした。</p>
+
+<p>Youtube Live 配信なので今日もアーカイブを視聴できちゃいます。懐かしー。
+<a href="https://www.youtube.com/watch?v=-N1OpIo8L9A">Youtube, Japan Datadog User Group Meetup#1</a></p>
+
+<p><img src="/assets/images/meetup01.png" alt="Alt text for broken image link" /></p>]]></content><author><name>1Kano</name></author><summary type="html"><![CDATA[開催日: 2020年8月25日]]></summary></entry></feed>

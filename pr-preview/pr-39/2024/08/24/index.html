@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RSS で取得した Datadog 関連記事を生成 AI で要約して Slack に流す仕組み</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link type="application/atom+xml" rel="alternate" href="https://jdd-ug.github.io/feed.xml" title="Japan Datadog User Group" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>RSS で取得した Datadog 関連記事を生成 AI で要約して Slack に流す仕組み | Japan Datadog User Group</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="RSS で取得した Datadog 関連記事を生成 AI で要約して Slack に流す仕組み" />
+<meta name="author" content="chaspy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Organizer の @chaspy です。この記事では JDDUG の Slack に Datadog 関連記事を要約して流す方法について紹介します。これをみて興味を持った人はぜひ Slack にも参加いただけると嬉しいです！" />
+<meta property="og:description" content="Organizer の @chaspy です。この記事では JDDUG の Slack に Datadog 関連記事を要約して流す方法について紹介します。これをみて興味を持った人はぜひ Slack にも参加いただけると嬉しいです！" />
+<link rel="canonical" href="https://jdd-ug.github.io/2024/08/24/" />
+<meta property="og:url" content="https://jdd-ug.github.io/2024/08/24/" />
+<meta property="og:site_name" content="Japan Datadog User Group" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-08-24T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="RSS で取得した Datadog 関連記事を生成 AI で要約して Slack に流す仕組み" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"chaspy"},"dateModified":"2024-08-24T00:00:00+09:00","datePublished":"2024-08-24T00:00:00+09:00","description":"Organizer の @chaspy です。この記事では JDDUG の Slack に Datadog 関連記事を要約して流す方法について紹介します。これをみて興味を持った人はぜひ Slack にも参加いただけると嬉しいです！","headline":"RSS で取得した Datadog 関連記事を生成 AI で要約して Slack に流す仕組み","mainEntityOfPage":{"@type":"WebPage","@id":"https://jdd-ug.github.io/2024/08/24/"},"url":"https://jdd-ug.github.io/2024/08/24/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5" style="box-shadow: 0px 5px 5px 0px rgba(194, 194, 194, 0.5)">
+  <div class="container-sm">
+    <a class="navbar-brand" href="/">
+      <img src="/assets/images/jddug_logo_top.png" alt="JDDUG" height="80">
+    </a>
+    <ul class="nav justify-content-end">
+      
+        <li class="nav-item fs-4">
+          <a class="nav-link" href="/" >
+            Home
+          </a>
+        </li>
+      
+        <li class="nav-item fs-4">
+          <a class="nav-link" href="/about/" >
+            About
+          </a>
+        </li>
+      
+        <li class="nav-item fs-4">
+          <a class="nav-link" href="/blog/" >
+            Blog
+          </a>
+        </li>
+      
+        <li class="nav-item fs-4">
+          <a class="nav-link" href="/heros/" >
+            Presenter
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</nav>
+    <div class="container-md">
+    <h2>RSS で取得した Datadog 関連記事を生成 AI で要約して Slack に流す仕組み</h2>
+
+<!-- Tweet Button with X Icon Image -->
+<a
+  href="https://twitter.com/intent/tweet?text=RSS で取得した Datadog 関連記事を生成 AI で要約して Slack に流す仕組み #JDDUG"
+  class="twitter-share-button"
+  data-size="large"
+>
+</a>
+<script
+  async
+  src="https://platform.twitter.com/widgets.js"
+  charset="utf-8"
+></script>
+
+<p>
+  24 Aug 2024   -
+  <a href="/authors/chaspy/">Takeshi KONDO</a>
+  
+</p>
+
+<p>Organizer の @chaspy です。この記事では JDDUG の Slack に Datadog 関連記事を要約して流す方法について紹介します。これをみて興味を持った人はぜひ <a href="https://t.co/dpBETMaosn">Slack にも参加</a>いただけると嬉しいです！</p>
+
+<p>免責事項: この仕組みは <a href="https://platformengineering.connpass.com/">Platform Engineering Meetup</a> 主催の <a href="https://twitter.com/jacopen">@jacopen</a> さんがやっている方法をほぼそのまま実装したものです。この場を借りて感謝申し上げます。参照: <a href="https://x.com/jacopen/status/1786273957827748062">X: Feedly AI を使って集めた記事を OpenAI API で要約させて Slack に投げるパイプラインを作った</a></p>
+
+<h1 id="完成したもの">完成したもの</h1>
+
+<h2 id="datadog-公式-rss-の要約">Datadog 公式 RSS の要約</h2>
+
+<p><img src="/assets/images/rss-datadog.png" alt="Datadog 公式 RSS の要約" /></p>
+
+<h2 id="medium-や-zenn-などの-blog-記事の要約">Medium や Zenn などの Blog 記事の要約</h2>
+
+<p><img src="/assets/images/rss-blog.png" alt="Medium や Zenn などの Blog 記事の要約" /></p>
+
+<h1 id="仕組み">仕組み</h1>
+
+<p>Workflow を make.com で作成し、Feedly / OpenAI / Slack とそれぞれ Integration しています。</p>
+
+<p><img src="/assets/images/rss-make.png" alt="make.com で作成した workflow" /></p>
+
+<p>Feedly の方で事前にフォルダ単位で RSS を登録しておきます。</p>
+
+<p><img src="/assets/images/rss-feedly.png" alt="Feedly" /></p>
+
+<p>Watch Articles というモジュールを利用しています。</p>
+
+<p>OpenAI Integration では記事を要約させます。</p>
+
+<p><img src="/assets/images/rss-openai.png" alt="alt text" /></p>
+
+<p>messagee content は以下のようにしてプロンプトを組み立てています。こちらも @jacopen さんから教えていただいたものほぼそのままです。(若干親しみやすい一言を絵文字付きで入れるところをアレンジしたぐらい)</p>
+
+<hr />
+
+<p>以下の内容を要約して、日本語で出力してください。</p>
+
+<p>最初に以下を発言してください。</p>
+
+<p>🔍🔍🔍 新しい記事が見つかったよ 💡💡💡
+<code class="language-plaintext highlighter-rouge">2.title</code>
+<code class="language-plaintext highlighter-rouge">2.alternate[].href'</code></p>
+
+<p>次に箇条書きでポイントを整理し、その後内容を要約する文章を出力してください。</p>
+
+<p>箇条書きポイントを書く際のヘッダは
+★ この記事のポイント</p>
+
+<p>内容の要約は
+★ 要約</p>
+
+<p>としてください。</p>
+
+<p>==で囲まれた内容でコンテンツを与えますので、それを要約してください。
+もしコンテンツがなければ、次の URL にアクセスして内容を要約してください。</p>
+
+<p>最後に、この記事を読んでみたくなるような感想を絵文字付きで、親しみやすい口調で 1 行で添えてください。</p>
+
+<p>==
+<code class="language-plaintext highlighter-rouge">2.summary</code>
+<code class="language-plaintext highlighter-rouge">2.content</code>
+==</p>
+
+<hr />
+
+<p>最後の Slack のところは特段説明不要でできると思います。</p>
+
+<p>make.com の無料枠に収まるように、1 日 1 回の実行をしています。特に英語記事を要約してくれるのは助かりますね。</p>
+
+<p>流れた記事について Slack Thread でコミュニティメンバーでワイワイできるともっと楽しいだろうなと思っております。</p>
+
+<p>以上、RSS で取得した記事を Slack に要約して流す仕組みでした。いろんなコミュニティで有用だと思うのでぜひ試してみてください。</p>
+
+<p>なお JDDUG LP の Post も同様に流れるようにしているので、この記事も流れるはずです w</p>
+
+<p>それでは良い Datadog Life を！</p>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="/assets/js/common.js"></script>
+    </div>
+    <footer class="bg-dark">
+    <div class='container mt-3'>
+        <div class='row'>
+          <div class='mx-auto text-white'>
+          　<p>Copyright © JDDUG(Japan Datadog User Group) All Rights Reserved.</p>
+          </div>
+      </div>
+    </div>
+</footer>
+  </body>
+</html>
