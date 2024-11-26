@@ -18,6 +18,13 @@ JDDUG とは、Datadog クラウドサービスを利用するユーザーのコ
 
 - [@chaspy](/authors/chaspy/)
 - [@1kano](/authors/1kano)
+- @hasunumairet
+- @key0110
+- @vicugna
+- @mopp
+- sakka hiroi
+- tetsuo yokoyama
+- sayaka
 - 仲間募集中
 
 ## 問い合わせ
