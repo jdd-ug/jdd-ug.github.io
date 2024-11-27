@@ -25,6 +25,7 @@ JDDUG とは、Datadog クラウドサービスを利用するユーザーのコ
 - sakka hiroi
 - tetsuo yokoyama
 - sayaka
+- @taiponrock
 - 仲間募集中
 
 ## 問い合わせ
