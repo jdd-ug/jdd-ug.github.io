@@ -16,7 +16,6 @@ JDDUG とは、Datadog クラウドサービスを利用するユーザーのコ
 
 ## JDDUG の運営メンバー
 
-- [@chaspy](/authors/chaspy/)
 - [@1kano](/authors/1kano)
 - @hasunumairet
 - @key0110
