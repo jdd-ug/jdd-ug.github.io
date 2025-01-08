@@ -21,7 +21,7 @@ JDDUG とは、Datadog クラウドサービスを利用するユーザーのコ
 - @hasunumairet
 - @key0110
 - @vicugna
-- @mopp
+- [@mopp](/authors/mopp)
 - sakka hiroi
 - tetsuo yokoyama
 - sayaka
