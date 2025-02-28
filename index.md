@@ -20,8 +20,11 @@ _JDDUG6 の時に撮影した集合写真_
 Connpassで申し込み： [JDDUG meetup #7](https://datadog-jp.connpass.com/event/343144/)
 JDDUG は、少なくとも 3 ヶ月に 1 回のペースでユーザー会を開催する計画です。
 
-「発表してもいいよ」「手伝いします」という方、フォーム[👉]でお知らせください
+「発表してもいいよ」「会場提供できます」という方、フォーム[👉]でお知らせください
 [Form](https://forms.gle/SoJrRUvX4FcysogP9)
+
+## 📣次々回： 📆2025年 3月 6日(木)
+[JDDUG meetup #8 in 札幌](https://datadog-jp.connpass.com/event/344084/)
 
 ## 過去の開催履歴
 
