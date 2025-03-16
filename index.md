@@ -15,11 +15,10 @@ _JDDUG6 の時に撮影した集合写真_
 ## 開催レポートを公開しました！
 20 Nov 2024 [JDDUG meetup #6 を開催しました](/2024/11/20/)
 
-## 📣次々回： 📆2025年 3月 6日(木)
-[JDDUG meetup #8 in 札幌](https://datadog-jp.connpass.com/event/344084/)
-
 ## 過去の開催履歴
 
+- [2025/03/06 Japan Datadog User Group Meetup#8](https://datadog-jp.connpass.com/event/344084/)
+- [2025/02/26 Japan Datadog User Group Meetup#7](https://datadog-jp.connpass.com/event/343144/)
 - [2024/11/20 Japan Datadog User Group Meetup#6](https://datadog-jp.connpass.com/event/334594/)
 - [2024/08/07 Japan Datadog User Group Meetup#5](https://datadog-jp.connpass.com/event/324770/)
 - [2024/05/29 Japan Datadog User Group Meetup#4](https://datadog-jp.connpass.com/event/317091/)
