@@ -1,10 +1,11 @@
 # GitHub Pages of Japan Datadog User Group
 
 - Managed by @IchiroKano
-- Member @chaspy
+- Member @chaosoldier, @dl-sakuraba, @futahashi, @hsnmaaaaa, @mananyuki, @mopp, @oyaki14, @t-kaga, @taijihagino, @tatsuo48
 
 ## Local Development
-
+下記コマンドはローカルPCでWebサーバーを起動して検査する手順です。
+「bundle」でRuby Gemをインストールし、「bundle exec jeckyll s」でサーバーモードで起動、「open」コマンドでローカルPCのデフォルトブラウザを開きます。
 ```
 bundle
 bundle exec jekyll s
