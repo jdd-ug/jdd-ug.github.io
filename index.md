@@ -14,7 +14,8 @@ _JDDUG6 の時に撮影した集合写真_
 - 2025/05/08 [JDDUG meetup #9 @福岡](https://datadog-jp.connpass.com/event/348321/)
 
 ## 開催レポートを公開しました！
-- 2024/11/20 [JDDUG meetup #6 を開催しました](/2024/11/20/)
+- 2025/03/06 [JDDUG meetup #8 🗾札幌](/2025/03/06/)
+- 2024/11/20 [JDDUG meetup #7 @Tokyo 執筆中...]
 
 ## 過去の開催履歴
 
