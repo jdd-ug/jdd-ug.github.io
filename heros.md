@@ -5,6 +5,34 @@ title: 登壇した皆様
 
 # JDDUG に登壇頂いた皆様
 
+## Meetup#8
+
+| #      | Contents                                                                                                                                                                                     | Speaker  |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 1      | [Datadogのコスト周りのお話] | あのふじた |
+| 2      | [Software Catalog や Scorecard について] | 逆井 啓佑     |
+| 3      | [Datadogクラウドコストマネジメント使ってみた]  | 今村 光希     |
+| 4      | [現場の課題分析からDatadog導入に繋げた話] | tanai（棚井龍之介）     |
+| ------ | ------                                                                                                                                                                                       | ------   |
+| LT1    | [Lambdaの監視、できていますか？datadogを用いてLambdaを見守ろう] | Kento Ohgi（大木建人）     |
+| LT2    | [Azure Native ISV Services「Datadog」]    | いわさ     |
+| LT3    | [Datadog On-Callを試してみた] | 中川翔太     |
+
+
+## Meetup#7
+
+| #      | Contents                                                                                                                                                                                     | Speaker  |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 1      | [定型作業における Datadog プラットフォーム機能の活用](https://speakerdeck.com/sengoku4902/ding-xing-zuo-ye-niokeru-datadog-puratutohuomuji-neng-nohuo-yong)                                                                       | 笹崎 |
+| 2      | [Software Catalog – Endpointsを活用したMonitorの改善とか](https://speakerdeck.com/sh1y0uh/software-catalog-endpointswohuo-yong-sitamonitornogai-shan-toka)                                      | あおしょん     |
+| 3      | [Trace Metrics と Istio Metrics を駆使してエラーレートやレイテンシーを監視する](https://speakerdeck.com/fohte/trace-metrics-to-istio-metrics-desabisujian-quan-xing-wojian-shi-suru)                             | Fohte     |
+| 4      | [datadog-pgoを使用してCPUパフォーマンスを最大化する] | moko-poi     |
+| ------ | ------                                                                                                                                                                                       | ------   |
+| LT1    | [On-Callが卍解されたので使ってみた]                                                        | 目     |
+| LT2    | [DBMでなにができる？]                                                            | 宮後     |
+| LT3    | [Datadog APM の導入によりレイテンシを劇的に改善した話]                                                                    | ぐらめる     |
+| LT4    | [ErrorTrackingとOrchestrion]                                                                    | sugar-cat     |
+
 ## Meetup#6
 
 | #      | Contents                                                                                                                                                                                     | Speaker  |

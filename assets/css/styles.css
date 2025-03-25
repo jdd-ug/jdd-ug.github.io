@@ -17,6 +17,7 @@ table thead {
 h2 {
   border-left: 15px solid #8a2be2;
   padding-left: 8px;
+  margin-top: 1em !important;
 }
 
 /* 画像の最大幅を設定 */
