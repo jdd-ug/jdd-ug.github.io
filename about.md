@@ -20,7 +20,7 @@ JDDUG とは、日本でDatadogを活用しているユーザーが運営する�
 ## JDDUG の運営メンバー
 
 - [@1kano](/authors/1kano)
-- @hasunumairet
+- [@hasunumairet](/authors/hasunumairet)
 - @key0110
 - [@chs](/authors/chs)
 - [@mopp](/authors/mopp)
