@@ -5,7 +5,10 @@ title: About US
 
 # JDDUG とは
 
-JDDUG とは、Datadog クラウドサービスを利用するユーザーのコミュニティです。
+JDDUG とは、日本でDatadogを活用しているユーザーが運営する、Datadogユーザーのためのコミュニティです。<br />
+料金プラン,　形態は問いません。Datadogに興味があり、使ってみたい, 業務でしっかり使ってる, 誰でも参加OK。<br />
+ユーザー同士、技術情報をシェアしたり、横のつながりを広げたりし、オブザーバビリティを盛り上げましょう！
+
 
 ![集合写真](/assets/images/top_meetup.png){:width="800px" style="margin-left:100px"}
 
@@ -16,16 +19,18 @@ JDDUG とは、Datadog クラウドサービスを利用するユーザーのコ
 
 ## JDDUG の運営メンバー
 
-- [@chaspy](/authors/chaspy/)
 - [@1kano](/authors/1kano)
-- @hasunumairet
+- [@hasunumairet](/authors/hasunumairet)
 - @key0110
-- @vicugna
-- @mopp
-- sakka hiroi
+- [@chs](/authors/chs)
+- [@mopp](/authors/mopp)
+- [@tatsuo48](/authors/tatsuo48)
+- [@sakka hiroi](/authors/shiroi)
 - tetsuo yokoyama
 - sayaka
-- 仲間募集中
+- [@taiponrock](/authors/taiponrock)
+- kameneko
+- Kaga
 
 ## 問い合わせ
 

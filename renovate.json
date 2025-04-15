@@ -1,11 +1,18 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": [
+    "config:recommended"
+  ],
   "packageRules": [
     {
-      "updateTypes": ["patch", "minor"],
+      "matchUpdateTypes": [
+        "patch",
+        "minor"
+      ],
       "automerge": true,
-      "reviewers": ["@chaspy"]
+      "reviewers": [
+        "@chaspy"
+      ]
     }
   ]
 }
