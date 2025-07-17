@@ -19,6 +19,7 @@ _JDDUG6 の時に撮影した集合写真_
 ## 開催レポートを公開しました！
 - 2025/07/13 [JDDUG at SRE NEXT 2025 ブログ](/2025/07/13/)
 - 2025/05/28 [JDDUG meetup #10 @Tokyo ブログ](/2025/05/28/)
+- 2025/05/08 [JDDUG meetup #9 @福岡 ブログ](/2025/05/08/)
 
 ## 過去の開催履歴
 
@@ -35,6 +36,9 @@ _JDDUG6 の時に撮影した集合写真_
 
 ![札幌で集合写真](/assets/images/meetup8-sapporo.webp)
 _JDDUG8 @札幌_
+
+![福岡で集合写真](/assets/images/meetup9-all.jpeg)
+_JDDUG9 @福岡_
 
 [JDDUG#5の集合写真](/assets/images/meetup5_all.jpg)
 
