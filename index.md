@@ -12,17 +12,18 @@ _JDDUG6 の時に撮影した集合写真_
 
 [前回jddug#5の集合写真](/2024/08/07/#participant)
 
-## 次回の開催地はまたまた🗾福岡！ からの、東京！！
-- 2025/07/18 [JDDUG meetup #11 @福岡](https://datadog-jp.connpass.com/event/358184/)
+## 次回の開催地は東京！！
 - 2025/08/20 [JDDUG meetup #12 @東京](https://datadog-jp.connpass.com/event/360923/)
 
 ## 開催レポートを公開しました！
+- 2025/07/18 [JDDUG meetup #11 @福岡 ブログ](/2025/07/18/)
 - 2025/07/13 [JDDUG at SRE NEXT 2025 ブログ](/2025/07/13/)
 - 2025/05/28 [JDDUG meetup #10 @Tokyo ブログ](/2025/05/28/)
 - 2025/05/08 [JDDUG meetup #9 @福岡 ブログ](/2025/05/08/)
 
 ## 過去の開催履歴
 
+- [2025/07/18 Japan Datadog User Group Meetup#11](https://datadog-jp.connpass.com/event/358184/)
 - [2025/05/28 Japan Datadog User Group Meetup#10](https://datadog-jp.connpass.com/event/349693/)
 - [2025/05/08 Japan Datadog User Group Meetup#9](https://datadog-jp.connpass.com/event/348321/)
 - [2025/03/06 Japan Datadog User Group Meetup#8](https://datadog-jp.connpass.com/event/344084/)
@@ -34,13 +35,17 @@ _JDDUG6 の時に撮影した集合写真_
 - [2020/12/22 Japan Datadog User Group Meetup#2](https://datadog-jp.connpass.com/event/196957/)
 - [2020/08/25 Japan Datadog User Group Meetup#1](https://datadog-jp.connpass.com/event/185920/)
 
-![札幌で集合写真](/assets/images/meetup8-sapporo.webp)
-_JDDUG8 @札幌_
+![福岡で集合写真](/assets/images/meetup11-all.jpeg)
+_JDDUG11 @福岡_
 
 ![福岡で集合写真](/assets/images/meetup9-all.jpeg)
 _JDDUG9 @福岡_
 
-[JDDUG#5の集合写真](/assets/images/meetup5_all.jpg)
+![札幌で集合写真](/assets/images/meetup8-sapporo.webp)
+_JDDUG8 @札幌_
+
+![JDDUG#5の集合写真](/assets/images/meetup5_all.jpg)
+_JDDUG5 @東京_
 
 ---
 
