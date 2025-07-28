@@ -23,7 +23,7 @@ _JDDUG6 の時に撮影した集合写真_
 
 ## 過去の開催履歴
 
-- [2025/07/17 Japan Datadog User Group Meetup#11](https://datadog-jp.connpass.com/event/358184/)
+- [2025/07/18 Japan Datadog User Group Meetup#11](https://datadog-jp.connpass.com/event/358184/)
 - [2025/05/28 Japan Datadog User Group Meetup#10](https://datadog-jp.connpass.com/event/349693/)
 - [2025/05/08 Japan Datadog User Group Meetup#9](https://datadog-jp.connpass.com/event/348321/)
 - [2025/03/06 Japan Datadog User Group Meetup#8](https://datadog-jp.connpass.com/event/344084/)
