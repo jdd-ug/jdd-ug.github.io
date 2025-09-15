@@ -18,9 +18,10 @@ layout: default
 ></script>
 
 <p>
-  {{ page.date | date_to_string }} {% assign author = site.authors | where:
-  'short_name', page.author | first %} {% if author %} -
-  <a href="{{ author.url }}">{{ author.name }}</a>
+  {{ page.date | date_to_string }} 
+  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% if author %}
+    - <a href="/authors/{{ page.author }}/">{{ author.name }}</a>
   {% endif %}
 </p>
 

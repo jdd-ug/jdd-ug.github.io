@@ -7,14 +7,20 @@ layout: default
 
 JDDUG とは、日本でDatadogを活用しているユーザーが運営する、Datadogユーザーのためのコミュニティです。
 
+[東京](/2020/01/01/){: .btn .btn-purple }　
+[札幌](/2020/01/02/){: .btn .btn-purple }　
+[福岡](/2020/01/03/){: .btn .btn-purple }　
+[グローバル](https://www.datadoghq.com/user-groups/){: .btn .btn-purple }
+
 ![集合写真](/assets/images/meetup6-all.jpg)
 _JDDUG6 の時に撮影した集合写真_
 
-[前回jddug#5の集合写真](/2024/08/07/#participant)
+- イベントページ connpass: [https://datadog-jp.connpass.com/](https://datadog-jp.connpass.com/)
+- グローバル Datadog User Group: [https://www.datadoghq.com/user-groups/](https://www.datadoghq.com/user-groups/)
 
-## 次回の開催は
-- 2025/調整中
-- 2025/調整中
+## 次回イベント
+- 2025/11/13 [Japan Datadog User Group Meetup#14@福岡](https://datadog-jp.connpass.com/event/367374/)
+- 2025/10/29 Japan Datadog User Group Meetup#13@東京 を計画中
 
 ## 開催レポートを公開しました！
 - 2025/08/24 [JDDUG meetup #12 @Tokyo ブログ](/2025/08/20/)

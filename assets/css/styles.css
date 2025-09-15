@@ -25,3 +25,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.btn-purple {
+  background-color: rgb(138, 60, 196) !important;
+  color: #fff !important;
+  border: none;
+}
+
+.btn-purple:hover {
+  background-color: rgb(115, 36, 172) !important; /* 少し暗めのホバー色 */
+}

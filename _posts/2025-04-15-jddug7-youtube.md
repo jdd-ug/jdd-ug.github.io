@@ -1,6 +1,6 @@
 ---
 layout: post
-author: 1Kano
+author: 1kano
 title: "JDDUG 第7回の動画を公開しました"
 ---
 

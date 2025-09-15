@@ -1,7 +1,7 @@
 ---
 layout: author
 title: Staff
-short_name: 1Kano
+short_name: 1kano
 name: Ichiro KANO
 position: Writer
 my_url: https://coderdojo-ome.funnygeekjp.com/profile/
