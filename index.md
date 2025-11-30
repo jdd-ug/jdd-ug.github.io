@@ -19,8 +19,10 @@ _JDDUG6 の時に撮影した集合写真_
 - グローバル Datadog User Group: [https://www.datadoghq.com/user-groups/](https://www.datadoghq.com/user-groups/)
 
 ## 次回イベント
+- 計画中
+
+## 最近終了したイベント
 - 2025/11/13 [Japan Datadog User Group Meetup#14@福岡](https://datadog-jp.connpass.com/event/367374/)
-- 2025/10/29 [Japan Datadog User Group Meetup#13@東京](https://datadog-jp.connpass.com/event/368663/)
 
 ## 開催レポートを公開しました！
 - 2025/10/29 [Datadog Summit Tokyo ブース出展](/2025/10/16/)
@@ -31,12 +33,12 @@ _JDDUG6 の時に撮影した集合写真_
 - 2025/05/08 [JDDUG meetup #9 @福岡 ブログ](/2025/05/08/)
 
 ## 過去の開催履歴
-
-- [2025/08/20 Japan Datadog User Group Meetup#12](https://datadog-jp.connpass.com/event/360923/)
-- [2025/07/18 Japan Datadog User Group Meetup#11](https://datadog-jp.connpass.com/event/358184/)
-- [2025/05/28 Japan Datadog User Group Meetup#10](https://datadog-jp.connpass.com/event/349693/)
-- [2025/05/08 Japan Datadog User Group Meetup#9](https://datadog-jp.connpass.com/event/348321/)
-- [2025/03/06 Japan Datadog User Group Meetup#8](https://datadog-jp.connpass.com/event/344084/)
+- [2025/10/29 Japan Datadog User Group Meetup#13@東京](https://datadog-jp.connpass.com/event/368663/)
+- [2025/08/20 Japan Datadog User Group Meetup#12@東京](https://datadog-jp.connpass.com/event/360923/)
+- [2025/07/18 Japan Datadog User Group Meetup#11@福岡](https://datadog-jp.connpass.com/event/358184/)
+- [2025/05/28 Japan Datadog User Group Meetup#10@東京](https://datadog-jp.connpass.com/event/349693/)
+- [2025/05/08 Japan Datadog User Group Meetup#9@福岡](https://datadog-jp.connpass.com/event/348321/)
+- [2025/03/06 Japan Datadog User Group Meetup#8@札幌](https://datadog-jp.connpass.com/event/344084/)
 - [2025/02/26 Japan Datadog User Group Meetup#7](https://datadog-jp.connpass.com/event/343144/)
 - [2024/11/20 Japan Datadog User Group Meetup#6](https://datadog-jp.connpass.com/event/334594/)
 - [2024/08/07 Japan Datadog User Group Meetup#5](https://datadog-jp.connpass.com/event/324770/)
