@@ -19,12 +19,13 @@ _JDDUG6 の時に撮影した集合写真_
 - グローバル Datadog User Group: [https://www.datadoghq.com/user-groups/](https://www.datadoghq.com/user-groups/)
 
 ## 次回イベント
-- 計画中
+- 2025/02/18(水) Datadog東京オフィス で計画中...
 
 ## 最近終了したイベント
 - 2025/11/13 [Japan Datadog User Group Meetup#14@福岡](https://datadog-jp.connpass.com/event/367374/)
 
 ## 開催レポートを公開しました！
+- 2025/10/29 [JDDUG meetup #13 @Tokyo ブログ](/2025/10/29/)
 - 2025/10/29 [Datadog Summit Tokyo ブース出展](/2025/10/16/)
 - 2025/08/24 [JDDUG meetup #12 @Tokyo ブログ](/2025/08/20/)
 - 2025/07/18 [JDDUG meetup #11 @福岡 ブログ](/2025/07/18/)
