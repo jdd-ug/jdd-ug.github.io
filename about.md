@@ -48,10 +48,23 @@ JDDUG とは、日本でDatadogを活用しているユーザーが運営する�
 
 - [Logo SVG format 50x50 mm](/assets/images/JDDUG_stickermule_rev1_50mm.svg){:target="_blank"}
 
+- [image story1 SVG format](/assets/images/story1.svg){:target="_blank"}
+- [image story2 SVG format](/assets/images/story2.svg){:target="_blank"}
+- [image story3 SVG format](/assets/images/story3.svg){:target="_blank"}
+- [image story4 SVG format](/assets/images/story4.svg){:target="_blank"}
+
+- [image story1 PNG format](/assets/images/story1.png){:target="_blank"}
+- [image story2 PNG format](/assets/images/story2.png){:target="_blank"}
+- [image story3 PNG format](/assets/images/story3.png){:target="_blank"}
+- [image story4 PNG format](/assets/images/story4.png){:target="_blank"}
+
+![ロゴ・ストーリー](/assets/images/image_story.png){:width="848px" style="margin-left:100px"}
+
 ## 注目のサイト
 
 - 姉妹サイト：[韓国 Datadog Korea User Group](https://datadogkrug.vercel.app/about)
 
 ![集合写真](/assets/images/krug.jpg){:width="1000px" style="margin-left:100px"}
+
 
 
