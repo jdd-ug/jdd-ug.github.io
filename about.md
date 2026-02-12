@@ -30,6 +30,7 @@ JDDUG とは、日本でDatadogを活用しているユーザーが運営する�
 - [@taiponrock](/authors/taiponrock)
 - kameneko
 - Kaga
+- [@futahashi](/authors/futahashi/)
 
 ## 問い合わせ
 
@@ -65,6 +66,7 @@ JDDUG とは、日本でDatadogを活用しているユーザーが運営する�
 - 姉妹サイト：[韓国 Datadog Korea User Group](https://datadogkrug.vercel.app/about)
 
 ![集合写真](/assets/images/krug.jpg){:width="1000px" style="margin-left:100px"}
+
 
 
 
