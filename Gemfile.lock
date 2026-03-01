@@ -25,7 +25,7 @@ GEM
     google-protobuf (4.32.0-x86_64-linux-gnu)
       bigdecimal
       rake (>= 13)
-    http_parser.rb (0.8.0)
+    http_parser.rb (0.8.1)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     jekyll (4.4.1)
@@ -104,7 +104,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  http_parser.rb (~> 0.6.0)
+  http_parser.rb (~> 0.8.0)
   jekyll (~> 4.4.0)
   jekyll-feed (~> 0.12)
   jekyll-seo-tag
@@ -114,4 +114,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   2.5.14
+  4.0.7
