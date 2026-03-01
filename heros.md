@@ -5,6 +5,19 @@ title: 登壇した皆様
 
 # JDDUG に登壇頂いた皆様
 
+## Meetup#15 @東京
+
+| #      | Contents                                                                                                                                                                                     | Speaker  |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 1      | DataDogで行うバッチ監視改善　〜意図しないコスト増の落とし穴も添えて〜 | @2357gi |
+| 2      | 障害対応Bot「Sherlock」のご紹介 | @tatsuo4848 |
+| 3      | 「なぜ」を残し、SLOを育てる IaCによるSLI/SLO運用の実践 | @_nogtk_ |
+| ------ | ------                                                                                                                                                                                       | ------   |
+| LT1    | 限定公開！Bits AI と Datadog MCP の最新情報 N選 | @AoToLog_ |
+| LT2    | Amazon Bedrock のコスト内訳を気合でトラッキングする | @fohte |
+| LT3    | Datadog RUMを導入するまで | @kkato25 |
+| LT4    | LangfuseからDDに移行した話 | @921kiyo_jp |
+
 ## Meetup#14 @福岡
 
 | #      | Contents                                                                                                                                                                                     | Speaker  |
@@ -181,3 +194,4 @@ title: 登壇した皆様
 | 2   | Suggested Topic の質問に可能な限り答えてみた                                                                                              | Shogo Muranushi (@rwle1212) |
 | 3   | [うちのワンコを真夏の暑さから守る](https://qiita.com/1Kano/items/5f2eed58794f13776a8e)                                                    | 1Kano (@ichirokano)         |
 | 4   | [Datadog Logs にログを集約しようとしてる話](https://speakerdeck.com/orfx/datadog-logs-ni-roguwoji-yue-siyouto-siteruhua)                  | @kawaguchi (orfx)           |
+
