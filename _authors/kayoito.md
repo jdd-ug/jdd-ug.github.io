@@ -1,7 +1,7 @@
 ---
 layout: author
 title: Staff
-short_name: KayoIto
+short_name: kayoito
 name: Kayo ITO
 position: Writer
 my_url: https://qiita.com/ikayo_oyaki
