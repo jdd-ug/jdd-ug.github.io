@@ -56,6 +56,10 @@ _JDDUG6 の時に撮影した集合写真_
   <a href="https://datadog-jp.connpass.com/event/401209/">
     <img src="https://media.connpass.com/thumbs/05/f8/05f8d258e567cf3509d0dc3aa289e174.png" alt="JDDUG meetup #21">
   </a>
+
+  <a href="https://datadog-jp.connpass.com/event/403092/">
+    <img src="https://media.connpass.com/thumbs/2b/b1/2bb1f3db7f096022a48e89103dc1111b.png" alt="JDDUG #22 オンライン Datadog 勉強会 / 初級">
+  </a>
 </div>
 <!-- ここまで（２カラム表示） -->
 
