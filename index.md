@@ -49,18 +49,19 @@ _JDDUG6 の時に撮影した集合写真_
 </style>
 
 <div class="event-images">
-  <a href="https://datadog-jp.connpass.com/event/387237/">
-    <img src="https://media.connpass.com/thumbs/af/50/af50b5e3656b64be2e02ab441a14d2f7.png" alt="JDDUG meetup #19">
-  </a>
-
   <a href="https://datadog-jp.connpass.com/event/389998/">
     <img src="https://media.connpass.com/thumbs/8d/72/8d72e7e3bb40bc34613eadc083833aa1.png" alt="JDDUG meetup #20">
+  </a>
+
+  <a href="https://datadog-jp.connpass.com/event/401209/">
+    <img src="https://media.connpass.com/thumbs/05/f8/05f8d258e567cf3509d0dc3aa289e174.png" alt="JDDUG meetup #21">
   </a>
 </div>
 <!-- ここまで（２カラム表示） -->
 
 
 ## 開催レポートを公開しました！
+- 2026/06/17 [JDDUG meetup #18 @東京 ブログ](/2026/06/17/)
 - 2026/05/28 [JDDUG meetup #17 @沖縄 ブログ](/2026/05/28/)
 - 2026/02/26 [JDDUG meetup #16 @福岡 ブログ](/2026/02/26/)
 - 2026/02/18 [JDDUG meetup #15 @東京 ブログ](/2026/02/18/)
@@ -74,6 +75,8 @@ _JDDUG6 の時に撮影した集合写真_
 - 2025/05/08 [JDDUG meetup #9 @福岡 ブログ](/2025/05/08/)
 
 ## 過去の開催履歴
+- [2026/07/01 Japan Datadog User Group Meetup#19@福岡](https://datadog-jp.connpass.com/event/387237/)
+- [2026/06/17 Japan Datadog User Group Meetup#18@東京](https://datadog-jp.connpass.com/event/386234/)
 - [2026/05/28 Japan Datadog User Group Meetup#17@沖縄](https://datadog-jp.connpass.com/event/387296/)
 - [2026/02/26 Japan Datadog User Group Meetup#16@福岡](https://datadog-jp.connpass.com/event/378193/)
 - [2026/02/18 Japan Datadog User Group Meetup#15@東京](https://datadog-jp.connpass.com/event/378380/)
@@ -91,6 +94,9 @@ _JDDUG6 の時に撮影した集合写真_
 - [2024/03/13 増枠しました！Japan Datadog User Group Meetup#3](https://datadog-jp.connpass.com/event/309899/)
 - [2020/12/22 Japan Datadog User Group Meetup#2](https://datadog-jp.connpass.com/event/196957/)
 - [2020/08/25 Japan Datadog User Group Meetup#1](https://datadog-jp.connpass.com/event/185920/)
+
+![東京で集合写真](/assets/images/jddug18/0900_meetup.jpg)
+_JDDUG18 @東京_
 
 ![沖縄で集合写真](/assets/images/okinawa-all.jpg)
 _JDDUG17 @沖縄_
