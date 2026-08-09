@@ -20,18 +20,14 @@ _JDDUG6 の時に撮影した集合写真_
 - グローバル Datadog User Group: [https://www.datadoghq.com/user-groups/](https://www.datadoghq.com/user-groups/)
 
 ## 次回イベント
-次回イベントは connpass で告知します。
+次回イベントは connpass で告知します。オンライン勉強会も始まりました！（直近は8/19(水)となります）
 
 <!-- ここから２カラム表示のためのCSS。イベント１件だけなら削除すること -->
 <style>
   .event-images {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
-    flex-wrap: wrap;
-  }
-
-  .event-images a {
-    flex: 1 1 calc(50% - 20px); /* PC: 2カラム */
   }
 
   .event-images img {
@@ -42,8 +38,8 @@ _JDDUG6 の時に撮影した集合写真_
 
   /* スマホ（600px以下）は1カラムにする */
   @media (max-width: 600px) {
-    .event-images a {
-      flex: 1 1 100%;
+    .event-images {
+      grid-template-columns: 1fr;
     }
   }
 </style>
