@@ -1,0 +1,142 @@
+# 過去イベントのカード表示用データです。新しいイベントを先頭に追加してください。
+#
+# Meetupの追加例（記事名: _posts/2026-08-10-jddug20.md）:
+# - number: 20
+#   date: 2026-08-10
+#   location: 札幌
+#   connpass_url: https://datadog-jp.connpass.com/event/389998/
+#   image_url: /assets/images/jddug20/0900_meetup.jpg
+#
+# 個別イベントの追加例（記事名: _posts/2025-10-16-summit-tokyo.md）:
+# - title: Datadog Summit Tokyo 2025
+#   date: 2025-10-16
+#   location: 東京
+#   report_slug: summit-tokyo
+#   image_url: /assets/images/summit_tokyo_2025.jpg
+#
+# Meetupの記事は_posts/YYYY-MM-DD-jddug{number}.mdの名前で作成すると、自動でカードにリンクされます。
+# 個別イベントでは、投稿ファイル名から日付と拡張子を除いた部分をreport_slugに指定します。
+# connpass_url、report_slug、image_urlは未定であれば省略できます。
+# image_urlを省略すると、イベント名のプレースホルダーを表示します。
+
+- number: 19
+  date: 2026-07-01
+  location: 福岡
+  connpass_url: https://datadog-jp.connpass.com/event/387237/
+
+- number: 18
+  date: 2026-06-17
+  location: 東京
+  connpass_url: https://datadog-jp.connpass.com/event/386234/
+  image_url: /assets/images/jddug18/0900_meetup.jpg
+
+- number: 17
+  date: 2026-05-28
+  location: 沖縄
+  connpass_url: https://datadog-jp.connpass.com/event/387296/
+  image_url: /assets/images/okinawa-all.jpg
+
+- number: 16
+  date: 2026-02-26
+  location: 福岡
+  connpass_url: https://datadog-jp.connpass.com/event/378193/
+  image_url: /assets/images/jddug16/0900_meetup.jpg
+
+- number: 15
+  date: 2026-02-18
+  location: 東京
+  connpass_url: https://datadog-jp.connpass.com/event/378380/
+  image_url: /assets/images/jddug15/shugo-T.jpeg
+
+- number: 14
+  date: 2025-11-13
+  location: 福岡
+  connpass_url: https://datadog-jp.connpass.com/event/367374/
+  image_url: /assets/images/jddug14/900_meetup.JPG
+
+- number: 13
+  date: 2025-10-29
+  location: 東京
+  connpass_url: https://datadog-jp.connpass.com/event/368663/
+  image_url: /assets/images/jddug13/900_meetup.png
+
+- title: Datadog Summit Tokyo 2025
+  date: 2025-10-16
+  location: 東京
+  report_slug: summit-tokyo
+  image_url: /assets/images/summit_tokyo_2025.jpg
+
+- number: 12
+  date: 2025-08-20
+  location: 東京
+  connpass_url: https://datadog-jp.connpass.com/event/360923/
+  image_url: /assets/images/jddug12/900_meetup.jpg
+
+- number: 11
+  date: 2025-07-18
+  location: 福岡
+  connpass_url: https://datadog-jp.connpass.com/event/358184/
+  image_url: /assets/images/meetup11-all.jpeg
+
+- title: SRE NEXT 2025
+  date: 2025-07-12
+  location: 東京
+  report_slug: srenext
+  image_url: /assets/images/srenext2025/top.png
+
+- number: 10
+  date: 2025-05-28
+  location: 東京
+  connpass_url: https://datadog-jp.connpass.com/event/349693/
+  image_url: /assets/images/meetup10-2.JPG
+
+- number: 9
+  date: 2025-05-08
+  location: 福岡
+  connpass_url: https://datadog-jp.connpass.com/event/348321/
+  image_url: /assets/images/meetup9-all.jpeg
+
+- number: 8
+  date: 2025-03-06
+  location: 札幌
+  connpass_url: https://datadog-jp.connpass.com/event/344084/
+  image_url: /assets/images/meetup8-sapporo.webp
+
+- number: 7
+  date: 2025-02-26
+  location: 東京
+  connpass_url: https://datadog-jp.connpass.com/event/343144/
+  image_url: /assets/images/meetup7-all.jpg
+
+- number: 6
+  date: 2024-11-20
+  location: 東京
+  connpass_url: https://datadog-jp.connpass.com/event/334594/
+  report_slug: jssug6
+  image_url: /assets/images/meetup6-all.jpg
+
+- number: 5
+  date: 2024-08-07
+  location: 東京
+  connpass_url: https://datadog-jp.connpass.com/event/324770/
+  image_url: /assets/images/meetup5_all.jpg
+
+- number: 4
+  date: 2024-05-29
+  location: 東京
+  connpass_url: https://datadog-jp.connpass.com/event/317091/
+
+- number: 3
+  date: 2024-03-13
+  location: 東京
+  connpass_url: https://datadog-jp.connpass.com/event/309899/
+
+- number: 2
+  date: 2020-12-22
+  location: オンライン
+  connpass_url: https://datadog-jp.connpass.com/event/196957/
+
+- number: 1
+  date: 2020-08-25
+  location: オンライン
+  connpass_url: https://datadog-jp.connpass.com/event/185920/

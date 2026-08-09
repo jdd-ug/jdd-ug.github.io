@@ -60,67 +60,147 @@ _JDDUG6 の時に撮影した集合写真_
 <!-- ここまで（２カラム表示） -->
 
 
-## 開催レポートを公開しました！
-- 2026/06/17 [JDDUG meetup #18 @東京 ブログ](/2026/06/17/)
-- 2026/05/28 [JDDUG meetup #17 @沖縄 ブログ](/2026/05/28/)
-- 2026/02/26 [JDDUG meetup #16 @福岡 ブログ](/2026/02/26/)
-- 2026/02/18 [JDDUG meetup #15 @東京 ブログ](/2026/02/18/)
-- 2025/11/13 [JDDUG meetup #14 @福岡 ブログ](/2025/11/13/)
-- 2025/10/29 [JDDUG meetup #13 @Tokyo ブログ](/2025/10/29/)
-- 2025/10/29 [Datadog Summit Tokyo ブース出展](/2025/10/16/)
-- 2025/08/24 [JDDUG meetup #12 @Tokyo ブログ](/2025/08/20/)
-- 2025/07/18 [JDDUG meetup #11 @福岡 ブログ](/2025/07/18/)
-- 2025/07/13 [JDDUG at SRE NEXT 2025 ブログ](/2025/07/13/)
-- 2025/05/28 [JDDUG meetup #10 @Tokyo ブログ](/2025/05/28/)
-- 2025/05/08 [JDDUG meetup #9 @福岡 ブログ](/2025/05/08/)
+## 過去のイベント
 
-## 過去の開催履歴
-- [2026/07/01 Japan Datadog User Group Meetup#19@福岡](https://datadog-jp.connpass.com/event/387237/)
-- [2026/06/17 Japan Datadog User Group Meetup#18@東京](https://datadog-jp.connpass.com/event/386234/)
-- [2026/05/28 Japan Datadog User Group Meetup#17@沖縄](https://datadog-jp.connpass.com/event/387296/)
-- [2026/02/26 Japan Datadog User Group Meetup#16@福岡](https://datadog-jp.connpass.com/event/378193/)
-- [2026/02/18 Japan Datadog User Group Meetup#15@東京](https://datadog-jp.connpass.com/event/378380/)
-- [2025/11/13 Japan Datadog User Group Meetup#14@福岡](https://datadog-jp.connpass.com/event/367374/)
-- [2025/10/29 Japan Datadog User Group Meetup#13@東京](https://datadog-jp.connpass.com/event/368663/)
-- [2025/08/20 Japan Datadog User Group Meetup#12@東京](https://datadog-jp.connpass.com/event/360923/)
-- [2025/07/18 Japan Datadog User Group Meetup#11@福岡](https://datadog-jp.connpass.com/event/358184/)
-- [2025/05/28 Japan Datadog User Group Meetup#10@東京](https://datadog-jp.connpass.com/event/349693/)
-- [2025/05/08 Japan Datadog User Group Meetup#9@福岡](https://datadog-jp.connpass.com/event/348321/)
-- [2025/03/06 Japan Datadog User Group Meetup#8@札幌](https://datadog-jp.connpass.com/event/344084/)
-- [2025/02/26 Japan Datadog User Group Meetup#7](https://datadog-jp.connpass.com/event/343144/)
-- [2024/11/20 Japan Datadog User Group Meetup#6](https://datadog-jp.connpass.com/event/334594/)
-- [2024/08/07 Japan Datadog User Group Meetup#5](https://datadog-jp.connpass.com/event/324770/)
-- [2024/05/29 Japan Datadog User Group Meetup#4](https://datadog-jp.connpass.com/event/317091/)
-- [2024/03/13 増枠しました！Japan Datadog User Group Meetup#3](https://datadog-jp.connpass.com/event/309899/)
-- [2020/12/22 Japan Datadog User Group Meetup#2](https://datadog-jp.connpass.com/event/196957/)
-- [2020/08/25 Japan Datadog User Group Meetup#1](https://datadog-jp.connpass.com/event/185920/)
+<style>
+  .event-history-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    margin: 24px 0 36px;
+  }
 
-![東京で集合写真](/assets/images/jddug18/0900_meetup.jpg)
-_JDDUG18 @東京_
+  .event-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #e2e2e8;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(47, 31, 74, 0.08);
+  }
 
-![沖縄で集合写真](/assets/images/okinawa-all.jpg)
-_JDDUG17 @沖縄_
+  .event-card__image,
+  .event-card__placeholder {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
 
-![福岡で集合写真](/assets/images/jddug16/0900_meetup.jpg)
-_JDDUG16 @福岡_
+  .event-card__media-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
 
-![東京で集合写真](assets/images/jddug15/shugo-T.jpeg)
-_JDDUG15 @東京_
+  .event-card__image {
+    display: block;
+    object-fit: cover;
+  }
 
-![福岡で集合写真](/assets/images/jddug14/900_meetup.JPG)
-_JDDUG14 @福岡_
+  .event-card__placeholder {
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #7c54b6, #542c85);
+  }
 
-![福岡で集合写真](/assets/images/meetup11-all.jpeg)
-_JDDUG11 @福岡_
+  .event-card__body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 16px;
+  }
 
-![福岡で集合写真](/assets/images/meetup9-all.jpeg)
-_JDDUG9 @福岡_
+  .event-card__title {
+    margin: 0 0 4px;
+    font-size: 1.1rem;
+  }
 
-![札幌で集合写真](/assets/images/meetup8-sapporo.webp)
-_JDDUG8 @札幌_
+  .event-card__meta {
+    margin: 0 0 16px;
+    color: #666;
+    font-size: 0.9rem;
+  }
 
-![JDDUG#5の集合写真](/assets/images/meetup5_all.jpg)
-_JDDUG5 @東京_
+  .event-card__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: auto;
+  }
+
+  .event-card__link {
+    display: inline-block;
+    padding: 7px 12px;
+    border: 1px solid #7c54b6;
+    border-radius: 999px;
+    color: #542c85;
+    font-size: 0.86rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .event-card__link:hover {
+    color: #fff;
+    background: #7c54b6;
+    text-decoration: none;
+  }
+
+  @media (max-width: 900px) {
+    .event-history-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 600px) {
+    .event-history-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="event-history-grid">
+  {% for event in site.data.events %}
+  <article class="event-card">
+    {% if event.title %}
+      {% assign event_title = event.title %}
+    {% else %}
+      {% capture event_title %}Meetup #{{ event.number }} @{{ event.location }}{% endcapture %}
+    {% endif %}
+    {% if event.report_slug %}
+      {% assign report_slug = event.report_slug %}
+    {% else %}
+      {% capture report_slug %}jddug{{ event.number }}{% endcapture %}
+    {% endif %}
+    {% assign event_report = site.posts | where: "slug", report_slug | first %}
+    {% if event_report %}
+    <a class="event-card__media-link" href="{{ event_report.url }}" aria-label="{{ event_title | strip }}の開催レポートを読む">
+    {% endif %}
+    {% if event.image_url %}
+    <img class="event-card__image" src="{{ event.image_url }}" alt="{{ event_title | strip }}" loading="lazy">
+    {% else %}
+    <div class="event-card__placeholder">{{ event_title | strip }}</div>
+    {% endif %}
+    {% if event_report %}
+    </a>
+    {% endif %}
+    <div class="event-card__body">
+      <h3 class="event-card__title">{{ event_title | strip }}</h3>
+      <p class="event-card__meta">{{ event.date | date: "%Y年%m月%d日" }}</p>
+      <div class="event-card__links">
+        {% if event.connpass_url %}
+        <a class="event-card__link" href="{{ event.connpass_url }}">connpass</a>
+        {% endif %}
+        {% if event_report %}
+        <a class="event-card__link" href="{{ event_report.url }}">開催レポート</a>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
 
 ---
 

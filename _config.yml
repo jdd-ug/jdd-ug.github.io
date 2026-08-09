@@ -4,6 +4,22 @@ collections:
   authors:
     output: true
 
+# 著者を追加する場合は _authors/{short_name}.md を作成します。
+# 実在する人物の情報へ置き換え、未設定の項目は省略してください。
+#
+# ---
+# layout: author
+# title: Staff
+# short_name: new_member
+# name: New Member
+# position: Writer
+# my_url: https://example.com/
+# x_id: example_user
+# image_url: /assets/images/authors/new_member.jpg
+# ---
+#
+# ここから自己紹介を記載します。
+
 defaults:
   - scope:
       path: ''
