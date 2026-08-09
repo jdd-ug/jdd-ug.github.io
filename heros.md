@@ -5,6 +5,32 @@ title: 登壇した皆様
 
 # JDDUG に登壇頂いた皆様
 
+## Meetup#18 @東京
+
+| #      | Contents | Speaker  |
+| ------ | -------- | -------- |
+| 1      | 導入時に起こったコストの課題とAIを活用した運用 | 佐藤 寛記 / 鈴木 滉樹 |
+| 2      | LLM Observability の権限設計の話 | 杉田 |
+| 3      | コストの壁を工夫で乗り越えたサーバー仮想化基盤の監視統合 | 鹿野 市郎 |
+| 4      | AppServiceへのAPM導入とコスト改善のこれから | 平野 |
+| ------ | ------ | ------ |
+| LT1    | エラーバジェットのアラートタイミングについて | 丸山 |
+| LT2    | ダッシュボード構築にBits Chatが便利すぎた | 萩原 |
+| LT3    | AWS Glueの監視を Job Monitoring に移行した話 | 大間 |
+| LT4    | アンオフィシャルな、オフィシャルからのお願い | Wataru Yamazaki |
+
+## Meetup#17 @沖縄
+
+| #      | Contents | Speaker  |
+| ------ | -------- | -------- |
+| 1      | はじめてのDatadog AI開発とオブザーバビリティ | KairiM |
+| 2      | Datadog Live Trouble Shooting Ryukyu | 逆井 / 清家 |
+| 3      | LLM Observabilityで実現する安全なLLM Usage 管理 | Brown |
+| ------ | ------ | ------ |
+| LT1    | オンコールの負荷軽減のためのBits Assistant活用 | kaga |
+| LT2    | 開発を止めないCI/CD 〜CI Visibilityによる継続的最適化〜 | 鶴田Lv.400 |
+| LT3    | Datadog認定試験の概要と対策 | 上地 |
+
 ## Meetup#16 @福岡
 
 | #      | Contents                                                                                                                                                                                     | Speaker  |
