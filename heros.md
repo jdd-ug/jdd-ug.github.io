@@ -5,6 +5,19 @@ title: 登壇した皆様
 
 # JDDUG に登壇頂いた皆様
 
+## Meetup#21 @東京
+
+| #      | Contents | Speaker  |
+| ------ | -------- | -------- |
+| 1      | ALB ログから Trace を気合で繋げる技術 | Fohte |
+| 2      | AI × Datadog MCP でコスト削減まで実現した Metric Streams の導入 | 三口 宗武 |
+| 3      | Datadog で始める FinOps | 山本 哲也 |
+| ------ | ------ | ------ |
+| LT1    | AIにデバッグさせて気づいた、「正しい計装」がAIの精度を決めるという話 | 出町 陽平 |
+| LT2    | LWA+ EchoのGoサーバーにDatadog APMを導入した事例紹介 | 國分 虎海太 |
+| LT3    | トレースが送信されない不具合のデバッグ話 or パフォチュー時 Datadog を使っているかの話 | 市川 裕也 |
+| LT4    | チーム内でのDatadog布教活動 | 棚井 龍之介 |
+
 ## Meetup#18 @東京
 
 | #      | Contents | Speaker  |

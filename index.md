@@ -20,9 +20,8 @@ _JDDUG6 の時に撮影した集合写真_
 - グローバル Datadog User Group: [https://www.datadoghq.com/user-groups/](https://www.datadoghq.com/user-groups/)
 
 ## 次回イベント
-次回イベントは connpass で告知します。オンライン勉強会も始まりました！（直近は8/19(水)となります）
+次回イベントは [connpass](https://datadog-jp.connpass.com/) で告知します。
 
-<!-- ここから２カラム表示のためのCSS。イベント１件だけなら削除すること -->
 <style>
   .event-images {
     display: grid;
@@ -31,12 +30,12 @@ _JDDUG6 の時に撮影した集合写真_
   }
 
   .event-images img {
+    display: block;
     width: 100%;
     height: auto;
     border-radius: 6px;
   }
 
-  /* スマホ（600px以下）は1カラムにする */
   @media (max-width: 600px) {
     .event-images {
       grid-template-columns: 1fr;
@@ -45,19 +44,14 @@ _JDDUG6 の時に撮影した集合写真_
 </style>
 
 <div class="event-images">
-  <a href="https://datadog-jp.connpass.com/event/389998/">
-    <img src="https://media.connpass.com/thumbs/8d/72/8d72e7e3bb40bc34613eadc083833aa1.png" alt="JDDUG meetup #20">
+  <a href="https://datadog-jp.connpass.com/event/404227/">
+    <img src="https://media.connpass.com/thumbs/c7/0b/c70b8858f944b044d3ade41d42c2e94b.png" alt="Japan Datadog User Group Meetup #22 @大阪">
   </a>
 
-  <a href="https://datadog-jp.connpass.com/event/401209/">
-    <img src="https://media.connpass.com/thumbs/05/f8/05f8d258e567cf3509d0dc3aa289e174.png" alt="JDDUG meetup #21">
-  </a>
-
-  <a href="https://datadog-jp.connpass.com/event/403092/">
-    <img src="https://media.connpass.com/thumbs/2b/b1/2bb1f3db7f096022a48e89103dc1111b.png" alt="JDDUG #22 オンライン Datadog 勉強会 / 初級">
+  <a href="https://datadog-jp.connpass.com/event/404680/">
+    <img src="https://media.connpass.com/thumbs/a7/13/a713bab631a0ee0904ef9d09eb98b235.png" alt="Japan Datadog User Group Meetup #23 @沖縄">
   </a>
 </div>
-<!-- ここまで（２カラム表示） -->
 
 
 ## 過去のイベント
