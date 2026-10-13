@@ -11,6 +11,7 @@ JDDUG とは、日本でDatadogを活用しているユーザーが運営する�
 [札幌](/2020/01/02/){: .btn .btn-purple }　
 [福岡](/2020/01/03/){: .btn .btn-purple }　
 [沖縄](/2020/01/04/){: .btn .btn-purple }　
+[大阪](/2020/01/05/){: .btn .btn-purple }　
 [グローバル](https://www.datadoghq.com/user-groups/){: .btn .btn-purple }
 
 ![集合写真](/assets/images/meetup6-all.jpg)
@@ -44,10 +45,6 @@ _JDDUG6 の時に撮影した集合写真_
 </style>
 
 <div class="event-images">
-  <a href="https://datadog-jp.connpass.com/event/404227/">
-    <img src="https://media.connpass.com/thumbs/c7/0b/c70b8858f944b044d3ade41d42c2e94b.png" alt="Japan Datadog User Group Meetup #22 @大阪">
-  </a>
-
   <a href="https://datadog-jp.connpass.com/event/404680/">
     <img src="https://media.connpass.com/thumbs/a7/13/a713bab631a0ee0904ef9d09eb98b235.png" alt="Japan Datadog User Group Meetup #23 @沖縄">
   </a>
