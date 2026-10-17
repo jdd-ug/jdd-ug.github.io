@@ -48,9 +48,6 @@ _JDDUG6 の時に撮影した集合写真_
   <a href="https://datadog-jp.connpass.com/event/404680/">
     <img src="https://media.connpass.com/thumbs/a7/13/a713bab631a0ee0904ef9d09eb98b235.png" alt="Japan Datadog User Group Meetup #23 @沖縄">
   </a>
-</div>
-
-<div class="event-images">
   <a href="https://datadog-jp.connpass.com/event/410218/">
     <img src="https://media.connpass.com/thumbs/c2/8c/c28c3a63c0b20cb3eb339a2b3fa216ba.png" alt="Japan Datadog User Group Meetup #24 @東京">
   </a>
