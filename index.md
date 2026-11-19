@@ -12,6 +12,7 @@ JDDUG とは、日本でDatadogを活用しているユーザーが運営する�
 [福岡](/2020/01/03/){: .btn .btn-purple }　
 [沖縄](/2020/01/04/){: .btn .btn-purple }　
 [大阪](/2020/01/05/){: .btn .btn-purple }　
+[オンライン](/2020/01/06/){: .btn .btn-purple }　
 [グローバル](https://www.datadoghq.com/user-groups/){: .btn .btn-purple }
 
 ![集合写真](/assets/images/meetup6-all.jpg)
