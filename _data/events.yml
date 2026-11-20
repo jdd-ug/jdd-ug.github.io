@@ -19,6 +19,12 @@
 # connpass_url、report_slug、image_urlは未定であれば省略できます。
 # image_urlを省略すると、イベント名のプレースホルダーを表示します。
 
+- number: 24
+  date: 2026-11-12
+  location: 東京
+  connpass_url: https://datadog-jp.connpass.com/event/410218/
+  image_url: /assets/images/jddug24/allattendee.png
+
 - number: 22
   date: 2026-10-06
   location: 大阪
